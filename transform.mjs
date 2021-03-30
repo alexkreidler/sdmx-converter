@@ -84,23 +84,41 @@ const stages = [
     })
   ),
 
-  // [
-  // jsont.pathRule('.{.dimensions}', (d) =>
-  //   Object.assign(d.match, { dimensions: d.runner() })
-  // ),
   [
-    jsont.pathRule('.dimensions{.id}', (d) => Object.assign(d.context, {dimensions: d.runner()})),
+    jsont.pathRule('.dimensions{.id}', (d) =>
+      Object.assign(d.context, { dimensions: d.runner() })
+    ),
     jsont.pathRule('.{.id}', (d) =>
       Object.assign(d.match, {
         '@id': createTypedIRI_NA(d.match, 'Dimension', 'NOAG'),
-        id: undefined
+        id: undefined,
       })
     ),
   ],
-  // ],
-  // Object.assign(d.match.dimensions, {"@id": createTypedIRI_NA(obj, "Dimension", d.match.agencyID)})
 
-  // createTypedIRI
+  [
+    jsont.pathRule('.attributes{.id}', (d) =>
+      Object.assign(d.context, { attributes: d.runner() })
+    ),
+    jsont.pathRule('.{.id}', (d) =>
+      Object.assign(d.match, {
+        '@id': createTypedIRI_NA(d.match, 'Attribute', 'NOAG'),
+        id: undefined,
+      })
+    ),
+  ],
+
+  [
+    jsont.pathRule('.measures{.id}', (d) =>
+      Object.assign(d.context, { measures: d.runner() })
+    ),
+    jsont.pathRule('.{.id}', (d) =>
+      Object.assign(d.match, {
+        '@id': createTypedIRI_NA(d.match, 'Measure', 'NOAG'),
+        id: undefined,
+      })
+    ),
+  ],
 ];
 
 let transformed = json;

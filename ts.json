@@ -12,7 +12,6 @@
     "attributes": [
       {
         "assignmentStatus": "Conditional",
-        "id": "UNIT_MEASURE",
         "ConceptIdentity": {
           "agencyID": "ABS",
           "class": "Concept",
@@ -31,11 +30,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ABS/Concept/CL_UNIT_MEASURE",
           "skos:notation": "CL_UNIT_MEASURE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MEASURE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
             "id": "OBS_VALUE"
@@ -59,11 +58,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ABS/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_COMMENT",
         "AttributeRelationship": {
           "PrimaryMeasure": {
             "id": "OBS_VALUE"
@@ -78,12 +77,12 @@
           "@type": "skos:Concept",
           "@id": "https://loqu.dev/ABS/Concept/OBS_COMMENT",
           "skos:notation": "OBS_COMMENT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_COMMENT"
       }
     ],
     "dimensions": [
       {
-        "id": "MEASURE",
         "position": "1",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -107,7 +106,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/MEASURE"
       },
       {
-        "id": "SEX_ABS",
         "position": "2",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -131,7 +129,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SEX_ABS"
       },
       {
-        "id": "AGE",
         "position": "3",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -155,7 +152,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AGE"
       },
       {
-        "id": "ASGS_2011",
         "position": "4",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -179,7 +175,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ASGS_2011"
       },
       {
-        "id": "PROJ_SERIES",
         "position": "5",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -203,7 +198,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/PROJ_SERIES"
       },
       {
-        "id": "FREQUENCY",
         "position": "6",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -227,7 +221,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQUENCY"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "7",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -247,21 +240,19 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "ABS",
-          "class": "Concept",
-          "maintainableParentID": "CS_COMMON",
-          "maintainableParentVersion": "1.0.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        }
-      }
-    ]
+    "measures": {
+      "ConceptIdentity": {
+        "agencyID": "ABS",
+        "class": "Concept",
+        "maintainableParentID": "CS_COMMON",
+        "maintainableParentVersion": "1.0.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "ABS",
@@ -276,7 +267,6 @@
     "attributes": [
       {
         "assignmentStatus": "Conditional",
-        "id": "UNIT_MEASURE",
         "ConceptIdentity": {
           "agencyID": "ABS",
           "class": "Concept",
@@ -295,11 +285,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ABS/Concept/CL_UNIT_MEASURE",
           "skos:notation": "CL_UNIT_MEASURE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MEASURE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
             "id": "OBS_VALUE"
@@ -323,11 +313,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ABS/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_COMMENT",
         "AttributeRelationship": {
           "PrimaryMeasure": {
             "id": "OBS_VALUE"
@@ -342,12 +332,12 @@
           "@type": "skos:Concept",
           "@id": "https://loqu.dev/ABS/Concept/OBS_COMMENT",
           "skos:notation": "OBS_COMMENT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_COMMENT"
       }
     ],
     "dimensions": [
       {
-        "id": "MEASURE",
         "position": "1",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -371,7 +361,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/MEASURE"
       },
       {
-        "id": "SEX_ABS",
         "position": "2",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -395,7 +384,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SEX_ABS"
       },
       {
-        "id": "AGE",
         "position": "3",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -419,7 +407,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AGE"
       },
       {
-        "id": "REGION",
         "position": "4",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -443,7 +430,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REGION"
       },
       {
-        "id": "SERIES",
         "position": "5",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -467,7 +453,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SERIES"
       },
       {
-        "id": "FREQUENCY",
         "position": "6",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -491,7 +476,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQUENCY"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "7",
         "ConceptIdentity": {
           "agencyID": "ABS",
@@ -511,21 +495,19 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "ABS",
-          "class": "Concept",
-          "maintainableParentID": "CS_COMMON",
-          "maintainableParentVersion": "1.0.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        }
-      }
-    ]
+    "measures": {
+      "ConceptIdentity": {
+        "agencyID": "ABS",
+        "class": "Concept",
+        "maintainableParentID": "CS_COMMON",
+        "maintainableParentVersion": "1.0.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "ECB",
@@ -543,7 +525,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "TIME_FORMAT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).TIME_FORMAT",
         "AttributeRelationship": {
           "Dimension": [
@@ -585,11 +566,11 @@
             "maxLength": "3",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TIME_FORMAT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -614,11 +595,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_CONF",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).OBS_CONF",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -643,11 +624,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_OBS_CONF",
           "skos:notation": "CL_OBS_CONF"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_CONF"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_PRE_BREAK",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).OBS_PRE_BREAK",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -669,11 +650,11 @@
             "maxLength": "15",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_PRE_BREAK"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_ECB",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).PUBL_ECB",
         "AttributeRelationship": {
           "Dimension": [
@@ -715,11 +696,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_ECB"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_MU",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).PUBL_MU",
         "AttributeRelationship": {
           "Dimension": [
@@ -761,11 +742,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_MU"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_PUBLIC",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).PUBL_PUBLIC",
         "AttributeRelationship": {
           "Dimension": [
@@ -807,11 +788,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_PUBLIC"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMPILATION",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).COMPILATION",
         "AttributeRelationship": {
           "Dimension": [
@@ -850,11 +831,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMPILATION"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "EXT_TITLE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).EXT_TITLE",
         "AttributeRelationship": {
           "Dimension": [
@@ -893,11 +874,11 @@
             "maxLength": "350",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/EXT_TITLE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "EXT_UNIT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).EXT_UNIT",
         "AttributeRelationship": {
           "Dimension": [
@@ -936,11 +917,11 @@
             "maxLength": "70",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/EXT_UNIT"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "TITLE_COMPL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_AME1(1.0).TITLE_COMPL",
         "AttributeRelationship": {
           "Dimension": [
@@ -979,12 +960,12 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_COMPL"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).FREQ",
         "ConceptIdentity": {
@@ -1009,7 +990,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "AME_REF_AREA",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REF_AREA",
         "ConceptIdentity": {
@@ -1034,7 +1014,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_REF_AREA"
       },
       {
-        "id": "AME_TRANSFORMATION",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_TRANSFORMATION",
         "ConceptIdentity": {
@@ -1059,7 +1038,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_TRANSFORMATION"
       },
       {
-        "id": "AME_AGG_METHOD",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_AGG_METHOD",
         "ConceptIdentity": {
@@ -1084,7 +1062,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_AGG_METHOD"
       },
       {
-        "id": "AME_UNIT",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_UNIT",
         "ConceptIdentity": {
@@ -1109,7 +1086,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_UNIT"
       },
       {
-        "id": "AME_REFERENCE",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REFERENCE",
         "ConceptIdentity": {
@@ -1134,7 +1110,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_REFERENCE"
       },
       {
-        "id": "AME_ITEM",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_ITEM",
         "ConceptIdentity": {
@@ -1159,7 +1134,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AME_ITEM"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ECB:ECB_AME1(1.0).TIME_PERIOD",
         "ConceptIdentity": {
@@ -1180,28 +1154,26 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_AME1(1.0).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "ECB",
-          "class": "Concept",
-          "maintainableParentID": "ECB_CONCEPTS",
-          "maintainableParentVersion": "1.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        },
-        "LocalRepresentation": {
-          "TextFormat": {
-            "maxLength": "15",
-            "textType": "String"
-          }
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_AME1(1.0).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "ECB",
+        "class": "Concept",
+        "maintainableParentID": "ECB_CONCEPTS",
+        "maintainableParentVersion": "1.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "LocalRepresentation": {
+        "TextFormat": {
+          "maxLength": "15",
+          "textType": "String"
         }
-      }
-    ]
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "ECB",
@@ -1219,7 +1191,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "TIME_FORMAT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).TIME_FORMAT",
         "AttributeRelationship": {
           "Dimension": [
@@ -1264,11 +1235,11 @@
             "maxLength": "3",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TIME_FORMAT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -1293,11 +1264,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_CONF",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_CONF",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -1322,11 +1293,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_OBS_CONF",
           "skos:notation": "CL_OBS_CONF"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_CONF"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_PRE_BREAK",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_PRE_BREAK",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -1348,11 +1319,11 @@
             "maxLength": "15",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_PRE_BREAK"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_COM",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_COM",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -1374,11 +1345,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_COM"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "BREAKS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).BREAKS",
         "AttributeRelationship": {
           "Dimension": [
@@ -1423,11 +1394,11 @@
             "maxLength": "350",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/BREAKS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "COLLECTION",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).COLLECTION",
         "AttributeRelationship": {
           "Dimension": [
@@ -1475,11 +1446,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_COLLECTION",
           "skos:notation": "CL_COLLECTION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COLLECTION"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMPILING_ORG",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).COMPILING_ORG",
         "AttributeRelationship": {
           "Dimension": [
@@ -1527,11 +1498,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION",
           "skos:notation": "CL_ORGANISATION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMPILING_ORG"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DISS_ORG",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).DISS_ORG",
         "AttributeRelationship": {
           "Dimension": [
@@ -1579,11 +1550,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION",
           "skos:notation": "CL_ORGANISATION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DISS_ORG"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DOM_SER_IDS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).DOM_SER_IDS",
         "AttributeRelationship": {
           "Dimension": [
@@ -1628,11 +1599,11 @@
             "maxLength": "70",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DOM_SER_IDS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_ECB",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_ECB",
         "AttributeRelationship": {
           "Dimension": [
@@ -1677,11 +1648,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_ECB"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_MU",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_MU",
         "AttributeRelationship": {
           "Dimension": [
@@ -1726,11 +1697,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_MU"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PUBL_PUBLIC",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_PUBLIC",
         "AttributeRelationship": {
           "Dimension": [
@@ -1775,11 +1746,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PUBL_PUBLIC"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMPILATION",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).COMPILATION",
         "AttributeRelationship": {
           "Dimension": [
@@ -1821,11 +1792,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMPILATION"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "DECIMALS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).DECIMALS",
         "AttributeRelationship": {
           "Dimension": [
@@ -1870,11 +1841,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_DECIMALS",
           "skos:notation": "CL_DECIMALS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DECIMALS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "NAT_TITLE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).NAT_TITLE",
         "AttributeRelationship": {
           "Dimension": [
@@ -1916,11 +1887,11 @@
             "maxLength": "350",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/NAT_TITLE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "SOURCE_AGENCY",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).SOURCE_AGENCY",
         "AttributeRelationship": {
           "Dimension": [
@@ -1965,11 +1936,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION",
           "skos:notation": "CL_ORGANISATION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/SOURCE_AGENCY"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "TITLE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).TITLE",
         "AttributeRelationship": {
           "Dimension": [
@@ -2011,11 +1982,11 @@
             "maxLength": "200",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TITLE_COMPL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).TITLE_COMPL",
         "AttributeRelationship": {
           "Dimension": [
@@ -2058,11 +2029,11 @@
             "minLength": "1",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_COMPL"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).UNIT",
         "AttributeRelationship": {
           "Dimension": [
@@ -2107,11 +2078,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_UNIT",
           "skos:notation": "CL_UNIT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).UNIT_MULT",
         "AttributeRelationship": {
           "Dimension": [
@@ -2156,12 +2127,12 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ECB/Concept/CL_UNIT_MULT",
           "skos:notation": "CL_UNIT_MULT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).FREQ",
         "ConceptIdentity": {
@@ -2186,7 +2157,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "REF_AREA",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).REF_AREA",
         "ConceptIdentity": {
@@ -2211,7 +2181,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
       },
       {
-        "id": "BKN_ITEM",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_ITEM",
         "ConceptIdentity": {
@@ -2236,7 +2205,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/BKN_ITEM"
       },
       {
-        "id": "BKN_TYPE",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_TYPE",
         "ConceptIdentity": {
@@ -2261,7 +2229,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/BKN_TYPE"
       },
       {
-        "id": "BKN_DENOM",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_DENOM",
         "ConceptIdentity": {
@@ -2286,7 +2253,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/BKN_DENOM"
       },
       {
-        "id": "BKN_SERIES",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_SERIES",
         "ConceptIdentity": {
@@ -2311,7 +2277,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/BKN_SERIES"
       },
       {
-        "id": "DATA_TYPE_BKN",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).DATA_TYPE_BKN",
         "ConceptIdentity": {
@@ -2336,7 +2301,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/DATA_TYPE_BKN"
       },
       {
-        "id": "SERIES_DENOM",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).SERIES_DENOM",
         "ConceptIdentity": {
@@ -2361,7 +2325,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SERIES_DENOM"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ECB:ECB_BKN1(1.0).TIME_PERIOD",
         "ConceptIdentity": {
@@ -2382,28 +2345,26 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_BKN1(1.0).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "ECB",
-          "class": "Concept",
-          "maintainableParentID": "ECB_CONCEPTS",
-          "maintainableParentVersion": "1.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        },
-        "LocalRepresentation": {
-          "TextFormat": {
-            "maxLength": "15",
-            "textType": "String"
-          }
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_BKN1(1.0).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "ECB",
+        "class": "Concept",
+        "maintainableParentID": "ECB_CONCEPTS",
+        "maintainableParentVersion": "1.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "LocalRepresentation": {
+        "TextFormat": {
+          "maxLength": "15",
+          "textType": "String"
         }
-      }
-    ]
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "IMF",
@@ -2421,7 +2382,6 @@
     "attributes": [
       {
         "assignmentStatus": "Conditional",
-        "id": "TIME_FORMAT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).TIME_FORMAT",
         "AttributeRelationship": {
           "Dimension": [
@@ -2490,11 +2450,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_TIME_FORMAT",
           "skos:notation": "CL_TIME_FORMAT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TIME_FORMAT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -2519,11 +2479,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ESTAT/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "CONF_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).CONF_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -2548,11 +2508,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_CONF_STATUS",
           "skos:notation": "CL_CONF_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/CONF_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "PRE_BREAK_VALUE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).PRE_BREAK_VALUE",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -2574,11 +2534,11 @@
             "maxLength": "15",
             "textType": "Double"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/PRE_BREAK_VALUE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMMENT_OBS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).COMMENT_OBS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -2600,11 +2560,11 @@
             "maxLength": "4000",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMMENT_OBS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMMENT_TS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).COMMENT_TS",
         "AttributeRelationship": {
           "Dimension": [
@@ -2670,11 +2630,11 @@
             "maxLength": "1050",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMMENT_TS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "TITLE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).TITLE",
         "AttributeRelationship": {
           "Dimension": [
@@ -2740,11 +2700,11 @@
             "maxLength": "200",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).UNIT_MULT",
         "AttributeRelationship": {
           "Dimension": [
@@ -2813,11 +2773,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT",
           "skos:notation": "CL_UNIT_MULT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "DECIMALS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).DECIMALS",
         "AttributeRelationship": {
           "Dimension": [
@@ -2886,11 +2846,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_DECIMALS",
           "skos:notation": "CL_DECIMALS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DECIMALS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TIME_PER_COLLECT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).TIME_PER_COLLECT",
         "AttributeRelationship": {
           "Dimension": [
@@ -2959,11 +2919,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/IMF/Concept/CL_TIME_COLLECT",
           "skos:notation": "CL_TIME_COLLECT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TIME_PER_COLLECT"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "REF_PERIOD_DETAIL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).REF_PERIOD_DETAIL",
         "AttributeRelationship": {
           "Dimension": [
@@ -3032,11 +2992,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/ESTAT/Concept/CL_REF_PERIOD_DTL",
           "skos:notation": "CL_REF_PERIOD_DTL"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/REF_PERIOD_DETAIL"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMPILING_ORG",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).COMPILING_ORG",
         "AttributeRelationship": {
           "Dimension": [
@@ -3105,11 +3065,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/IMF/Concept/CL_ORGANISATION",
           "skos:notation": "CL_ORGANISATION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMPILING_ORG"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DATA_COMP",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).DATA_COMP",
         "AttributeRelationship": {
           "Dimension": [
@@ -3175,11 +3135,11 @@
             "maxLength": "4000",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DATA_COMP"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DISS_ORG",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).DISS_ORG",
         "AttributeRelationship": {
           "Dimension": [
@@ -3248,11 +3208,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/IMF/Concept/CL_ORGANISATION",
           "skos:notation": "CL_ORGANISATION"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DISS_ORG"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "TITLE_COMPL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:BOP(1.14).TITLE_COMPL",
         "AttributeRelationship": {
           "Dimension": [
@@ -3312,12 +3272,12 @@
           "@type": "skos:Concept",
           "@id": "https://loqu.dev/IMF/Concept/TITLE_COMPL",
           "skos:notation": "TITLE_COMPL"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_COMPL"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FREQ",
         "ConceptIdentity": {
@@ -3342,7 +3302,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "ADJUSTMENT",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ADJUSTMENT",
         "ConceptIdentity": {
@@ -3367,7 +3326,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ADJUSTMENT"
       },
       {
-        "id": "REF_AREA",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_AREA",
         "ConceptIdentity": {
@@ -3392,7 +3350,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
       },
       {
-        "id": "COUNTERPART_AREA",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_AREA",
         "ConceptIdentity": {
@@ -3417,7 +3374,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA"
       },
       {
-        "id": "REF_SECTOR",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_SECTOR",
         "ConceptIdentity": {
@@ -3442,7 +3398,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_SECTOR"
       },
       {
-        "id": "COUNTERPART_SECTOR",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_SECTOR",
         "ConceptIdentity": {
@@ -3467,7 +3422,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_SECTOR"
       },
       {
-        "id": "FLOW_STOCK_ENTRY",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FLOW_STOCK_ENTRY",
         "ConceptIdentity": {
@@ -3492,7 +3446,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FLOW_STOCK_ENTRY"
       },
       {
-        "id": "ACCOUNTING_ENTRY",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ACCOUNTING_ENTRY",
         "ConceptIdentity": {
@@ -3517,7 +3470,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ACCOUNTING_ENTRY"
       },
       {
-        "id": "INT_ACC_ITEM",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INT_ACC_ITEM",
         "ConceptIdentity": {
@@ -3542,7 +3494,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/INT_ACC_ITEM"
       },
       {
-        "id": "FUNCTIONAL_CAT",
         "position": "10",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FUNCTIONAL_CAT",
         "ConceptIdentity": {
@@ -3567,7 +3518,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FUNCTIONAL_CAT"
       },
       {
-        "id": "INSTR_ASSET",
         "position": "11",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INSTR_ASSET",
         "ConceptIdentity": {
@@ -3592,7 +3542,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/INSTR_ASSET"
       },
       {
-        "id": "MATURITY",
         "position": "12",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).MATURITY",
         "ConceptIdentity": {
@@ -3617,7 +3566,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/MATURITY"
       },
       {
-        "id": "UNIT_MEASURE",
         "position": "13",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).UNIT_MEASURE",
         "ConceptIdentity": {
@@ -3642,7 +3590,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
       },
       {
-        "id": "CURRENCY_DENOM",
         "position": "14",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).CURRENCY_DENOM",
         "ConceptIdentity": {
@@ -3667,7 +3614,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/CURRENCY_DENOM"
       },
       {
-        "id": "VALUATION",
         "position": "15",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).VALUATION",
         "ConceptIdentity": {
@@ -3692,7 +3638,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/VALUATION"
       },
       {
-        "id": "COMP_METHOD",
         "position": "16",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COMP_METHOD",
         "ConceptIdentity": {
@@ -3717,7 +3662,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMP_METHOD"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "17",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF:BOP(1.14).TIME_PERIOD",
         "ConceptIdentity": {
@@ -3738,28 +3682,26 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF:BOP(1.14).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "IMF",
-          "class": "Concept",
-          "maintainableParentID": "CS_BOP",
-          "maintainableParentVersion": "1.14",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/IMF/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        },
-        "LocalRepresentation": {
-          "TextFormat": {
-            "maxLength": "15",
-            "textType": "Double"
-          }
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF:BOP(1.14).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "IMF",
+        "class": "Concept",
+        "maintainableParentID": "CS_BOP",
+        "maintainableParentVersion": "1.14",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/IMF/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "LocalRepresentation": {
+        "TextFormat": {
+          "maxLength": "15",
+          "textType": "Double"
         }
-      }
-    ]
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "OECD",
@@ -3775,7 +3717,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "DOMAIN",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=OECD:INFRA_ANNUAL_LABOUR(3.1).DOMAIN",
         "AttributeRelationship": {
           "Dimension": {
@@ -3803,11 +3744,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/OECD/Concept/CL_DOMAIN",
           "skos:notation": "CL_DOMAIN"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DOMAIN"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=OECD:INFRA_ANNUAL_LABOUR(3.1).OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -3835,11 +3776,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=OECD:INFRA_ANNUAL_LABOUR(3.1).UNIT_MULT",
         "AttributeRelationship": {
           "Dimension": [
@@ -3893,12 +3834,12 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT",
           "skos:notation": "CL_UNIT_MULT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       }
     ],
     "dimensions": [
       {
-        "id": "REFERENCE_AREA",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).REFERENCE_AREA",
         "ConceptIdentity": {
@@ -3925,7 +3866,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REFERENCE_AREA"
       },
       {
-        "id": "SUBJECT",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SUBJECT",
         "ConceptIdentity": {
@@ -3952,7 +3892,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SUBJECT"
       },
       {
-        "id": "AGE",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).AGE",
         "ConceptIdentity": {
@@ -3979,7 +3918,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AGE"
       },
       {
-        "id": "SEX",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SEX",
         "ConceptIdentity": {
@@ -4006,7 +3944,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SEX"
       },
       {
-        "id": "ACTIVITY",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ACTIVITY",
         "ConceptIdentity": {
@@ -4033,7 +3970,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ACTIVITY"
       },
       {
-        "id": "ADJUSTMENT",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ADJUSTMENT",
         "ConceptIdentity": {
@@ -4060,7 +3996,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ADJUSTMENT"
       },
       {
-        "id": "UNIT_MEASURE",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).UNIT_MEASURE",
         "ConceptIdentity": {
@@ -4087,7 +4022,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
       },
       {
-        "id": "FREQ",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).FREQ",
         "ConceptIdentity": {
@@ -4114,7 +4048,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=OECD:INFRA_ANNUAL_LABOUR(3.1).TIME_PERIOD",
         "ConceptIdentity": {
@@ -4136,28 +4069,26 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=OECD:INFRA_ANNUAL_LABOUR(3.1).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "OECD",
-          "class": "Concept",
-          "maintainableParentID": "CS_STES",
-          "maintainableParentVersion": "3.1",
-          "package": "conceptscheme",
-          "xmlns": "",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/OECD/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        },
-        "LocalRepresentation": {
-          "TextFormat": {
-            "textType": "Decimal"
-          }
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=OECD:INFRA_ANNUAL_LABOUR(3.1).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "OECD",
+        "class": "Concept",
+        "maintainableParentID": "CS_STES",
+        "maintainableParentVersion": "3.1",
+        "package": "conceptscheme",
+        "xmlns": "",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/OECD/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "LocalRepresentation": {
+        "TextFormat": {
+          "textType": "Decimal"
         }
-      }
-    ]
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "UN",
@@ -4173,7 +4104,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).UNIT_MULT",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -4201,11 +4131,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT",
           "skos:notation": "CL_UNIT_MULT"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MEASURE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).UNIT_MEASURE",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -4233,11 +4163,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/UN/Concept/CL_UNIT_MEASURE",
           "skos:notation": "CL_UNIT_MEASURE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MEASURE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMMENT_OBS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COMMENT_OBS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -4260,11 +4190,11 @@
           "TextFormat": {
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMMENT_OBS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TRADE_SYSTEM",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).TRADE_SYSTEM",
         "ConceptIdentity": {
           "agencyID": "UN",
@@ -4286,11 +4216,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/UN/Concept/CL_TRADE_SYSTEM",
           "skos:notation": "CL_TRADE_SYSTEM"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TRADE_SYSTEM"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMMODITY_CUSTOM_BREAKDOWN_CODE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COMMODITY_CUSTOM_BREAKDOWN_CODE",
         "AttributeRelationship": {
           "Dimension": [
@@ -4391,11 +4321,11 @@
           "TextFormat": {
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMMODITY_CUSTOM_BREAKDOWN_CODE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COMMODITY_CUSTOM_BREAKDOWN_DESC",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COMMODITY_CUSTOM_BREAKDOWN_DESC",
         "AttributeRelationship": {
           "Dimension": [
@@ -4496,11 +4426,11 @@
           "TextFormat": {
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COMMODITY_CUSTOM_BREAKDOWN_DESC"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "COUNTERPART_AREA_1_TYPE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COUNTERPART_AREA_1_TYPE",
         "AttributeRelationship": {
           "Dimension": {
@@ -4528,11 +4458,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/UN/Concept/CL_PARTNER_TYPE",
           "skos:notation": "CL_PARTNER_TYPE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COUNTERPART_AREA_1_TYPE"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "COUNTERPART_AREA_2_TYPE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COUNTERPART_AREA_2_TYPE",
         "AttributeRelationship": {
           "Dimension": {
@@ -4560,11 +4490,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/UN/Concept/CL_PARTNER_TYPE",
           "skos:notation": "CL_PARTNER_TYPE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COUNTERPART_AREA_2_TYPE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COUNTERPART_AREA_1_ANNOTATION",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COUNTERPART_AREA_1_ANNOTATION",
         "AttributeRelationship": {
           "Dimension": {
@@ -4587,11 +4517,11 @@
           "TextFormat": {
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COUNTERPART_AREA_1_ANNOTATION"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "COUNTERPART_AREA_2_ANNOTATION",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).COUNTERPART_AREA_2_ANNOTATION",
         "AttributeRelationship": {
           "Dimension": {
@@ -4614,11 +4544,11 @@
           "TextFormat": {
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/COUNTERPART_AREA_2_ANNOTATION"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UN:IMTS(1.1).OBS_STATUS",
         "AttributeRelationship": {
           "PrimaryMeasure": {
@@ -4646,12 +4576,12 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/SDMX/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).FREQ",
         "ConceptIdentity": {
@@ -4678,7 +4608,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "REF_AREA",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).REF_AREA",
         "ConceptIdentity": {
@@ -4705,7 +4634,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
       },
       {
-        "id": "TRADE_FLOW",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRADE_FLOW",
         "ConceptIdentity": {
@@ -4732,7 +4660,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TRADE_FLOW"
       },
       {
-        "id": "COMMODITY_1",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1",
         "ConceptIdentity": {
@@ -4759,7 +4686,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_1"
       },
       {
-        "id": "COMMODITY_1_CONF",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1_CONF",
         "ConceptIdentity": {
@@ -4786,7 +4712,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_1_CONF"
       },
       {
-        "id": "COMMODITY_2",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2",
         "ConceptIdentity": {
@@ -4813,7 +4738,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_2"
       },
       {
-        "id": "COMMODITY_2_CONF",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2_CONF",
         "ConceptIdentity": {
@@ -4840,7 +4764,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_2_CONF"
       },
       {
-        "id": "COMMODITY_CUSTOM_BKDWN_CH_1",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_1",
         "ConceptIdentity": {
@@ -4867,7 +4790,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_1"
       },
       {
-        "id": "COMMODITY_CUSTOM_BKDWN_CH_2",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_2",
         "ConceptIdentity": {
@@ -4894,7 +4816,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_2"
       },
       {
-        "id": "COMMODITY_CUSTOM_BKDWN_CH_3",
         "position": "10",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_3",
         "ConceptIdentity": {
@@ -4921,7 +4842,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_3"
       },
       {
-        "id": "COUNTERPART_AREA_1",
         "position": "11",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1",
         "ConceptIdentity": {
@@ -4948,7 +4868,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_1"
       },
       {
-        "id": "COUNTERPART_AREA_1_CONF",
         "position": "12",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1_CONF",
         "ConceptIdentity": {
@@ -4975,7 +4894,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_1_CONF"
       },
       {
-        "id": "COUNTERPART_AREA_2",
         "position": "13",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2",
         "ConceptIdentity": {
@@ -5002,7 +4920,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_2"
       },
       {
-        "id": "COUNTERPART_AREA_2_CONF",
         "position": "14",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2_CONF",
         "ConceptIdentity": {
@@ -5029,7 +4946,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_2_CONF"
       },
       {
-        "id": "TRANSPORT_MODE_BORDER",
         "position": "15",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER",
         "ConceptIdentity": {
@@ -5056,7 +4972,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TRANSPORT_MODE_BORDER"
       },
       {
-        "id": "TRANSPORT_MODE_BORDER_CONF",
         "position": "16",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER_CONF",
         "ConceptIdentity": {
@@ -5083,7 +4998,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TRANSPORT_MODE_BORDER_CONF"
       },
       {
-        "id": "CUSTOMS_PROC",
         "position": "17",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).CUSTOMS_PROC",
         "ConceptIdentity": {
@@ -5110,7 +5024,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/CUSTOMS_PROC"
       },
       {
-        "id": "ACTIVITY",
         "position": "18",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).ACTIVITY",
         "ConceptIdentity": {
@@ -5137,7 +5050,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/ACTIVITY"
       },
       {
-        "id": "TRANSFORMATION",
         "position": "19",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSFORMATION",
         "ConceptIdentity": {
@@ -5164,7 +5076,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TRANSFORMATION"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "21",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=UN:IMTS(1.1).TIME_PERIOD",
         "ConceptIdentity": {
@@ -5186,23 +5097,21 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=UN:IMTS(1.1).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "UN",
-          "class": "Concept",
-          "maintainableParentID": "CS_IMTS",
-          "maintainableParentVersion": "1.0",
-          "package": "conceptscheme",
-          "xmlns": "",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/UN/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        }
-      }
-    ]
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=UN:IMTS(1.1).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "UN",
+        "class": "Concept",
+        "maintainableParentID": "CS_IMTS",
+        "maintainableParentVersion": "1.0",
+        "package": "conceptscheme",
+        "xmlns": "",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/UN/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "FR1",
@@ -5213,7 +5122,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).UNIT_MULT",
         "AttributeRelationship": {
           "Dimension": [
@@ -5262,11 +5170,11 @@
             "minValue": "0",
             "textType": "Integer"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "IDBANK",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).IDBANK",
         "AttributeRelationship": {
           "Dimension": [
@@ -5315,11 +5223,11 @@
             "pattern": "[09]{9}",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/IDBANK"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TITLE_FR",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).TITLE_FR",
         "AttributeRelationship": {
           "Dimension": [
@@ -5367,11 +5275,11 @@
             "maxLength": "240",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_FR"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TITLE_EN",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).TITLE_EN",
         "AttributeRelationship": {
           "Dimension": [
@@ -5419,11 +5327,11 @@
             "maxLength": "240",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_EN"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "LAST_UPDATE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).LAST_UPDATE",
         "AttributeRelationship": {
           "Dimension": [
@@ -5470,11 +5378,11 @@
           "TextFormat": {
             "textType": "GregorianTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/LAST_UPDATE"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "DECIMALS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).DECIMALS",
         "AttributeRelationship": {
           "Dimension": [
@@ -5523,11 +5431,11 @@
             "minValue": "0",
             "textType": "Integer"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DECIMALS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).OBS_STATUS",
         "AttributeRelationship": {
           "Dimension": [
@@ -5578,11 +5486,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_QUAL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).OBS_QUAL",
         "AttributeRelationship": {
           "Dimension": [
@@ -5633,11 +5541,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_QUAL",
           "skos:notation": "CL_OBS_QUAL"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_QUAL"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_REV",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).OBS_REV",
         "AttributeRelationship": {
           "Dimension": [
@@ -5688,11 +5596,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_REV",
           "skos:notation": "CL_OBS_REV"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_REV"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_CONF",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).OBS_CONF",
         "AttributeRelationship": {
           "Dimension": [
@@ -5743,11 +5651,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_CONF",
           "skos:notation": "CL_OBS_CONF"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_CONF"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_TYPE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).OBS_TYPE",
         "AttributeRelationship": {
           "Dimension": [
@@ -5798,11 +5706,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_TYPE",
           "skos:notation": "CL_OBS_TYPE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_TYPE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DATE_JO",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:BALANCEPAIEMENTS(1.0).DATE_JO",
         "AttributeRelationship": {
           "Dimension": [
@@ -5849,12 +5757,12 @@
           "TextFormat": {
             "textType": "GregorianTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DATE_JO"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).FREQ",
         "ConceptIdentity": {
@@ -5879,7 +5787,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "INDICATEUR",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INDICATEUR",
         "ConceptIdentity": {
@@ -5904,7 +5811,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/INDICATEUR"
       },
       {
-        "id": "COMPTE",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).COMPTE",
         "ConceptIdentity": {
@@ -5929,7 +5835,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/COMPTE"
       },
       {
-        "id": "INSTRUMENTS_BALANCE_PAIEMENTS",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INSTRUMENTS_BALANCE_PAIEMENTS",
         "ConceptIdentity": {
@@ -5954,7 +5859,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/INSTRUMENTS_BALANCE_PAIEMENTS"
       },
       {
-        "id": "NATURE",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).NATURE",
         "ConceptIdentity": {
@@ -5979,7 +5883,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/NATURE"
       },
       {
-        "id": "REF_AREA",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).REF_AREA",
         "ConceptIdentity": {
@@ -6004,7 +5907,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
       },
       {
-        "id": "UNIT_MEASURE",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).UNIT_MEASURE",
         "ConceptIdentity": {
@@ -6029,7 +5931,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
       },
       {
-        "id": "CORRECTION",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).CORRECTION",
         "ConceptIdentity": {
@@ -6054,7 +5955,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/CORRECTION"
       },
       {
-        "id": "BASIND",
         "position": "10",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).BASIND",
         "ConceptIdentity": {
@@ -6079,7 +5979,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/BASIND"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=FR1:BALANCEPAIEMENTS(1.0).TIME_PERIOD",
         "ConceptIdentity": {
@@ -6098,22 +5997,20 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:BALANCEPAIEMENTS(1.0).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "FR1",
-          "class": "Concept",
-          "maintainableParentID": "CONCEPTS_INSEE",
-          "maintainableParentVersion": "1.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        }
-      }
-    ]
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:BALANCEPAIEMENTS(1.0).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "FR1",
+        "class": "Concept",
+        "maintainableParentID": "CONCEPTS_INSEE",
+        "maintainableParentVersion": "1.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   },
   {
     "agencyID": "FR1",
@@ -6124,7 +6021,6 @@
     "attributes": [
       {
         "assignmentStatus": "Mandatory",
-        "id": "UNIT_MULT",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).UNIT_MULT",
         "AttributeRelationship": {
           "Dimension": [
@@ -6170,11 +6066,11 @@
             "minValue": "0",
             "textType": "Integer"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MULT"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "IDBANK",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).IDBANK",
         "AttributeRelationship": {
           "Dimension": [
@@ -6220,11 +6116,11 @@
             "pattern": "[09]{9}",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/IDBANK"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TITLE_FR",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).TITLE_FR",
         "AttributeRelationship": {
           "Dimension": [
@@ -6269,11 +6165,11 @@
             "maxLength": "240",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_FR"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "TITLE_EN",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).TITLE_EN",
         "AttributeRelationship": {
           "Dimension": [
@@ -6318,11 +6214,11 @@
             "maxLength": "240",
             "textType": "String"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/TITLE_EN"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "LAST_UPDATE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).LAST_UPDATE",
         "AttributeRelationship": {
           "Dimension": [
@@ -6366,11 +6262,11 @@
           "TextFormat": {
             "textType": "GregorianTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/LAST_UPDATE"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "DECIMALS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).DECIMALS",
         "AttributeRelationship": {
           "Dimension": [
@@ -6416,11 +6312,11 @@
             "minValue": "0",
             "textType": "Integer"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DECIMALS"
       },
       {
         "assignmentStatus": "Mandatory",
-        "id": "OBS_STATUS",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_STATUS",
         "AttributeRelationship": {
           "Dimension": [
@@ -6468,11 +6364,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_STATUS",
           "skos:notation": "CL_OBS_STATUS"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_QUAL",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_QUAL",
         "AttributeRelationship": {
           "Dimension": [
@@ -6520,11 +6416,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_QUAL",
           "skos:notation": "CL_OBS_QUAL"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_QUAL"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_REV",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_REV",
         "AttributeRelationship": {
           "Dimension": [
@@ -6572,11 +6468,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_REV",
           "skos:notation": "CL_OBS_REV"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_REV"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_CONF",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_CONF",
         "AttributeRelationship": {
           "Dimension": [
@@ -6624,11 +6520,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_CONF",
           "skos:notation": "CL_OBS_CONF"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_CONF"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "OBS_TYPE",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_TYPE",
         "AttributeRelationship": {
           "Dimension": [
@@ -6676,11 +6572,11 @@
           "@type": "qb:HierarchicalCodeList",
           "@id": "https://loqu.dev/FR1/Concept/CL_OBS_TYPE",
           "skos:notation": "CL_OBS_TYPE"
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/OBS_TYPE"
       },
       {
         "assignmentStatus": "Conditional",
-        "id": "DATE_JO",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=FR1:CHOMAGETRIM-NATIONAL(1.0).DATE_JO",
         "AttributeRelationship": {
           "Dimension": [
@@ -6724,12 +6620,12 @@
           "TextFormat": {
             "textType": "GregorianTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Attribute/DATE_JO"
       }
     ],
     "dimensions": [
       {
-        "id": "FREQ",
         "position": "2",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).FREQ",
         "ConceptIdentity": {
@@ -6754,7 +6650,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
       },
       {
-        "id": "INDICATEUR",
         "position": "3",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).INDICATEUR",
         "ConceptIdentity": {
@@ -6779,7 +6674,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/INDICATEUR"
       },
       {
-        "id": "NATURE",
         "position": "4",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).NATURE",
         "ConceptIdentity": {
@@ -6804,7 +6698,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/NATURE"
       },
       {
-        "id": "REF_AREA",
         "position": "5",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).REF_AREA",
         "ConceptIdentity": {
@@ -6829,7 +6722,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
       },
       {
-        "id": "SEXE",
         "position": "6",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).SEXE",
         "ConceptIdentity": {
@@ -6854,7 +6746,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/SEXE"
       },
       {
-        "id": "AGE",
         "position": "7",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).AGE",
         "ConceptIdentity": {
@@ -6879,7 +6770,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/AGE"
       },
       {
-        "id": "UNIT_MEASURE",
         "position": "8",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).UNIT_MEASURE",
         "ConceptIdentity": {
@@ -6904,7 +6794,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
       },
       {
-        "id": "CORRECTION",
         "position": "9",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).CORRECTION",
         "ConceptIdentity": {
@@ -6929,7 +6818,6 @@
         "@id": "https://loqu.dev/NOAG/Dimension/CORRECTION"
       },
       {
-        "id": "TIME_PERIOD",
         "position": "1",
         "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=FR1:CHOMAGETRIM-NATIONAL(1.0).TIME_PERIOD",
         "ConceptIdentity": {
@@ -6948,21 +6836,19 @@
         "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
-    "measures": [
-      {
-        "id": "OBS_VALUE",
-        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_VALUE",
-        "ConceptIdentity": {
-          "agencyID": "FR1",
-          "class": "Concept",
-          "maintainableParentID": "CONCEPTS_INSEE",
-          "maintainableParentVersion": "1.0",
-          "package": "conceptscheme",
-          "@type": "skos:Concept",
-          "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE",
-          "skos:notation": "OBS_VALUE"
-        }
-      }
-    ]
+    "measures": {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_VALUE",
+      "ConceptIdentity": {
+        "agencyID": "FR1",
+        "class": "Concept",
+        "maintainableParentID": "CONCEPTS_INSEE",
+        "maintainableParentVersion": "1.0",
+        "package": "conceptscheme",
+        "@type": "skos:Concept",
+        "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE",
+        "skos:notation": "OBS_VALUE"
+      },
+      "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+    }
   }
 ]
