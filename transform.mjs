@@ -139,7 +139,7 @@ fs.writeFileSync(transformFile, JSON.stringify(transformed, undefined, 2));
 let context = JSON.parse(fs.readFileSync('./context2.jsonld', 'utf-8'));
 
 let out = {
-  '@context': context,
+  '@context': context["@context"],
   '@graph': transformed.slice(1, 4),
 };
 
