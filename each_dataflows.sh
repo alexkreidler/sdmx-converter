@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# set -euxo
-
 trap "echo Exited!; exit;" SIGINT SIGTERM
 
 sources=$(cat sources.json | jq '[.[] | { id, url: ( .url + "/" ) }]')
 
 work_dir="/mnt/data/sdmx"
+
+# set -euxo
 
 for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
     _jq() {
@@ -24,18 +24,25 @@ for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
     flows=$(cat $out_dir/Dataflows.json | jq '.Structure.Structures.Dataflows.Dataflow | .[0:2]')
 
     for flow in $(echo "${flows}" | jq -r '.[] | @base64'); do
-        _jq() {
+        _jqi() {
             echo ${flow} | base64 --decode | jq -r ${1}
         }
 
-        id=$(_jq .[\"-id\"])
-        structure=$(_jq '.Structure.Ref')
+        mkdir -p $out_dir/DataStructures
+
+        id=$(_jqi '."-id"')
         # echo $structure
-        aid=$(echo $structure | jq .[\"-agencyID\"])
-        did=$(echo $structure | jq .[\"-id\"])
-        v=$(echo $structure | jq .[\"-version\"])
-        url="${base}datastructure/$aid/$did/$v"
-        echo "Dataflow $id, fething datastructure from $url"
+        # $(_jq '.Structure.Ref')
+        r=$(_jqi '.Structure.Ref' | jq '[."-agencyID",."-id",."-version"]')
+        u=$(echo $r | jq -r 'join("/")')
+        f=$(echo $r | jq -r 'join("_")')
+        # did=$(_jqi '.Structure.Ref.[\"-id\"]')
+        # v=$(_jqi '.Structure.Ref.[\"-version\"]')
+        # echo $r
+        url="${base}datastructure/$u"
+        echo "Dataflow $id, Datastructure $f from $url"
+
+        http GET "$url" >$out_dir/DataStructures/$f.xml
 
     done
     # .[0:10]
