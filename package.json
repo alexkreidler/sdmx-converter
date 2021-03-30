@@ -9,6 +9,7 @@
   "author": "Alex Kreidler",
   "license": "Apache-2.0",
   "dependencies": {
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "json-transforms": "^1.1.2"
   }
 }

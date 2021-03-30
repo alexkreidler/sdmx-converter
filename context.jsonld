@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "qb": "http://purl.org/linked-data/cube#",
+    "@base": "https://data.org/",
+    "@vocab": "http://purl.org/linked-data/cube#",
+    "id":  {"@type": "@id", "@id": "@id"},
+    "DataStructures": {
+      "@type": "qb:Dataset",
+      "@container": "@list"
+    }
+  },
+  
+}

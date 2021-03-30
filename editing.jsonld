@@ -1,0 +1,302 @@
+{
+  "@context": {
+    "qb": "http://purl.org/linked-data/cube#",
+    "@base": "https://data.org/",
+    "@vocab": "http://purl.org/linked-data/cube#",
+    "id":  {"@type": "@id", "@id": "@id"},
+    "DataStructures": {
+      "@type": "qb:Dataset",
+      "@container": "@list"
+    }
+  },
+  "DataStructures": [
+  {
+    "agencyID": "ABS",
+    "id": "ABORIGINAL_POP_PROJ",
+    "isFinal": "true",
+    "version": "1.0.0",
+    "DataStructureComponents": {
+      "AttributeList": {
+        "id": "AttributeDescriptor",
+        "Attribute": [
+          {
+            "assignmentStatus": "Conditional",
+            "id": "UNIT_MEASURE",
+            "AttributeRelationship": {
+              "None": ""
+            },
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "UNIT_MEASURE",
+                "maintainableParentID": "CS_ATTRIBUTE",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_UNIT_MEASURE",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "assignmentStatus": "Conditional",
+            "id": "OBS_STATUS",
+            "AttributeRelationship": {
+              "PrimaryMeasure": {
+                "Ref": {
+                  "id": "OBS_VALUE"
+                }
+              }
+            },
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "OBS_STATUS",
+                "maintainableParentID": "CS_ATTRIBUTE",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_OBS_STATUS",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "assignmentStatus": "Conditional",
+            "id": "OBS_COMMENT",
+            "AttributeRelationship": {
+              "PrimaryMeasure": {
+                "Ref": {
+                  "id": "OBS_VALUE"
+                }
+              }
+            },
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "OBS_COMMENT",
+                "maintainableParentID": "CS_ATTRIBUTE",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            }
+          }
+        ]
+      },
+      "DimensionList": {
+        "id": "DimensionDescriptor",
+        "Dimension": [
+          {
+            "id": "MEASURE",
+            "position": "1",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "MEASURE",
+                "maintainableParentID": "CS_COMMON",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_POP_PROJ",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "id": "SEX_ABS",
+            "position": "2",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "SEX",
+                "maintainableParentID": "CS_DEMOG",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_SEX",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "id": "AGE",
+            "position": "3",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "AGE",
+                "maintainableParentID": "CS_DEMOG",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_AGE",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "id": "ASGS_2011",
+            "position": "4",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "STATE_TERR",
+                "maintainableParentID": "CS_GEOGRAPHY",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_ASGS_STATE",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "id": "PROJ_SERIES",
+            "position": "5",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "PROJ_SER",
+                "maintainableParentID": "CS_DEMOG",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_DEMOG_PROJ_SERIES",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          },
+          {
+            "id": "FREQUENCY",
+            "position": "6",
+            "ConceptIdentity": {
+              "Ref": {
+                "agencyID": "ABS",
+                "class": "Concept",
+                "id": "FREQ",
+                "maintainableParentID": "CS_COMMON",
+                "maintainableParentVersion": "1.0.0",
+                "package": "conceptscheme"
+              }
+            },
+            "LocalRepresentation": {
+              "Enumeration": {
+                "Ref": {
+                  "agencyID": "ABS",
+                  "class": "Codelist",
+                  "id": "CL_FREQ",
+                  "package": "codelist",
+                  "version": "1.0.0"
+                }
+              }
+            }
+          }
+        ],
+        "TimeDimension": {
+          "id": "TIME_PERIOD",
+          "position": "7",
+          "ConceptIdentity": {
+            "Ref": {
+              "agencyID": "ABS",
+              "class": "Concept",
+              "id": "TIME_PERIOD",
+              "maintainableParentID": "CS_COMMON",
+              "maintainableParentVersion": "1.0.0",
+              "package": "conceptscheme"
+            }
+          },
+          "LocalRepresentation": {
+            "TextFormat": {
+              "textType": "ObservationalTimePeriod"
+            }
+          }
+        }
+      },
+      "MeasureList": {
+        "id": "MeasureDescriptor",
+        "PrimaryMeasure": {
+          "id": "OBS_VALUE",
+          "ConceptIdentity": {
+            "Ref": {
+              "agencyID": "ABS",
+              "class": "Concept",
+              "id": "OBS_VALUE",
+              "maintainableParentID": "CS_COMMON",
+              "maintainableParentVersion": "1.0.0",
+              "package": "conceptscheme"
+            }
+          }
+        }
+      }
+    },
+    "Name": {
+      "#text": "Projected population, Aboriginal and Torres Strait Islander Australians, Australia, state and territories, 2016 to 2031",
+      "lang": "en"
+    }
+  }
+  ]
+}
