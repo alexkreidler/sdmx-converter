@@ -82,146 +82,150 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "MEASURE",
-          "position": "1",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_COMMON",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/MEASURE",
-            "skos:notation": "MEASURE"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ",
-            "skos:notation": "CL_POP_PROJ"
-          }
+      {
+        "id": "MEASURE",
+        "position": "1",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_COMMON",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/MEASURE",
+          "skos:notation": "MEASURE"
         },
-        {
-          "id": "SEX_ABS",
-          "position": "2",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/SEX",
-            "skos:notation": "SEX"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_SEX",
-            "skos:notation": "CL_SEX"
-          }
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ",
+          "skos:notation": "CL_POP_PROJ"
         },
-        {
-          "id": "AGE",
-          "position": "3",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/AGE",
-            "skos:notation": "AGE"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_AGE",
-            "skos:notation": "CL_AGE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/MEASURE"
+      },
+      {
+        "id": "SEX_ABS",
+        "position": "2",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/SEX",
+          "skos:notation": "SEX"
         },
-        {
-          "id": "ASGS_2011",
-          "position": "4",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_GEOGRAPHY",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/STATE_TERR",
-            "skos:notation": "STATE_TERR"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_ASGS_STATE",
-            "skos:notation": "CL_ASGS_STATE"
-          }
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_SEX",
+          "skos:notation": "CL_SEX"
         },
-        {
-          "id": "PROJ_SERIES",
-          "position": "5",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/PROJ_SER",
-            "skos:notation": "PROJ_SER"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES",
-            "skos:notation": "CL_DEMOG_PROJ_SERIES"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/SEX_ABS"
+      },
+      {
+        "id": "AGE",
+        "position": "3",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/AGE",
+          "skos:notation": "AGE"
         },
-        {
-          "id": "FREQUENCY",
-          "position": "6",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_COMMON",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_AGE",
+          "skos:notation": "CL_AGE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AGE"
+      },
+      {
+        "id": "ASGS_2011",
+        "position": "4",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_GEOGRAPHY",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/STATE_TERR",
+          "skos:notation": "STATE_TERR"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_ASGS_STATE",
+          "skos:notation": "CL_ASGS_STATE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/ASGS_2011"
+      },
+      {
+        "id": "PROJ_SERIES",
+        "position": "5",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/PROJ_SER",
+          "skos:notation": "PROJ_SER"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES",
+          "skos:notation": "CL_DEMOG_PROJ_SERIES"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/PROJ_SERIES"
+      },
+      {
+        "id": "FREQUENCY",
+        "position": "6",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_COMMON",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/FREQ",
+          "skos:notation": "FREQ"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQUENCY"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "7",
@@ -239,7 +243,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -341,146 +346,150 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "MEASURE",
-          "position": "1",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_COMMON",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/MEASURE",
-            "skos:notation": "MEASURE"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ",
-            "skos:notation": "CL_POP_PROJ"
-          }
+      {
+        "id": "MEASURE",
+        "position": "1",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_COMMON",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/MEASURE",
+          "skos:notation": "MEASURE"
         },
-        {
-          "id": "SEX_ABS",
-          "position": "2",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/SEX",
-            "skos:notation": "SEX"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_SEX",
-            "skos:notation": "CL_SEX"
-          }
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ",
+          "skos:notation": "CL_POP_PROJ"
         },
-        {
-          "id": "AGE",
-          "position": "3",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/AGE",
-            "skos:notation": "AGE"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_AGE",
-            "skos:notation": "CL_AGE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/MEASURE"
+      },
+      {
+        "id": "SEX_ABS",
+        "position": "2",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/SEX",
+          "skos:notation": "SEX"
         },
-        {
-          "id": "REGION",
-          "position": "4",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_GEOGRAPHY",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/REMOTE",
-            "skos:notation": "REMOTE"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_REMOTENESS",
-            "skos:notation": "CL_REMOTENESS"
-          }
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_SEX",
+          "skos:notation": "CL_SEX"
         },
-        {
-          "id": "SERIES",
-          "position": "5",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_DEMOG",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/PROJ_SER",
-            "skos:notation": "PROJ_SER"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES",
-            "skos:notation": "CL_DEMOG_PROJ_SERIES"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/SEX_ABS"
+      },
+      {
+        "id": "AGE",
+        "position": "3",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/AGE",
+          "skos:notation": "AGE"
         },
-        {
-          "id": "FREQUENCY",
-          "position": "6",
-          "ConceptIdentity": {
-            "agencyID": "ABS",
-            "class": "Concept",
-            "maintainableParentID": "CS_COMMON",
-            "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ABS/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "ABS",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ABS/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_AGE",
+          "skos:notation": "CL_AGE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AGE"
+      },
+      {
+        "id": "REGION",
+        "position": "4",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_GEOGRAPHY",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/REMOTE",
+          "skos:notation": "REMOTE"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_REMOTENESS",
+          "skos:notation": "CL_REMOTENESS"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/REGION"
+      },
+      {
+        "id": "SERIES",
+        "position": "5",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_DEMOG",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/PROJ_SER",
+          "skos:notation": "PROJ_SER"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES",
+          "skos:notation": "CL_DEMOG_PROJ_SERIES"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/SERIES"
+      },
+      {
+        "id": "FREQUENCY",
+        "position": "6",
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_COMMON",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/FREQ",
+          "skos:notation": "FREQ"
+        },
+        "qb:codeList": {
+          "agencyID": "ABS",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ABS/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQUENCY"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "7",
@@ -498,7 +507,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -973,176 +983,181 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "1",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
+      {
+        "id": "FREQ",
+        "position": "1",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "AME_REF_AREA",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_REF_AREA",
-            "skos:notation": "AME_REF_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_AREA_EE",
-            "skos:notation": "CL_AME_AREA_EE"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
         },
-        {
-          "id": "AME_TRANSFORMATION",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_TRANSFORMATION",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_TRANSFORMATION",
-            "skos:notation": "AME_TRANSFORMATION"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_TRANSFORM",
-            "skos:notation": "CL_AME_TRANSFORM"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "AME_REF_AREA",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_REF_AREA",
+          "skos:notation": "AME_REF_AREA"
         },
-        {
-          "id": "AME_AGG_METHOD",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_AGG_METHOD",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_AGG_METHOD",
-            "skos:notation": "AME_AGG_METHOD"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_AGG_METHOD",
-            "skos:notation": "CL_AME_AGG_METHOD"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_AREA_EE",
+          "skos:notation": "CL_AME_AREA_EE"
         },
-        {
-          "id": "AME_UNIT",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_UNIT",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_UNIT",
-            "skos:notation": "AME_UNIT"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_UNIT",
-            "skos:notation": "CL_AME_UNIT"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_REF_AREA"
+      },
+      {
+        "id": "AME_TRANSFORMATION",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_TRANSFORMATION",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_TRANSFORMATION",
+          "skos:notation": "AME_TRANSFORMATION"
         },
-        {
-          "id": "AME_REFERENCE",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REFERENCE",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_REFERENCE",
-            "skos:notation": "AME_REFERENCE"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_REFERENCE",
-            "skos:notation": "CL_AME_REFERENCE"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_TRANSFORM",
+          "skos:notation": "CL_AME_TRANSFORM"
         },
-        {
-          "id": "AME_ITEM",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_ITEM",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/AME_ITEM",
-            "skos:notation": "AME_ITEM"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AME_ITEM",
-            "skos:notation": "CL_AME_ITEM"
-          }
-        }
-      ],
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_TRANSFORMATION"
+      },
+      {
+        "id": "AME_AGG_METHOD",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_AGG_METHOD",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_AGG_METHOD",
+          "skos:notation": "AME_AGG_METHOD"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_AGG_METHOD",
+          "skos:notation": "CL_AME_AGG_METHOD"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_AGG_METHOD"
+      },
+      {
+        "id": "AME_UNIT",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_UNIT",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_UNIT",
+          "skos:notation": "AME_UNIT"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_UNIT",
+          "skos:notation": "CL_AME_UNIT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_UNIT"
+      },
+      {
+        "id": "AME_REFERENCE",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_REFERENCE",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_REFERENCE",
+          "skos:notation": "AME_REFERENCE"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_REFERENCE",
+          "skos:notation": "CL_AME_REFERENCE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_REFERENCE"
+      },
+      {
+        "id": "AME_ITEM",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_AME1(1.0).AME_ITEM",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/AME_ITEM",
+          "skos:notation": "AME_ITEM"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AME_ITEM",
+          "skos:notation": "CL_AME_ITEM"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AME_ITEM"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "8",
@@ -1161,7 +1176,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -2144,200 +2160,206 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "1",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
+      {
+        "id": "FREQ",
+        "position": "1",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "REF_AREA",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/REF_AREA",
-            "skos:notation": "REF_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_AREA_EE",
-            "skos:notation": "CL_AREA_EE"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
         },
-        {
-          "id": "BKN_ITEM",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_ITEM",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/BKN_ITEM",
-            "skos:notation": "BKN_ITEM"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_BKN_ITEM",
-            "skos:notation": "CL_BKN_ITEM"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "REF_AREA",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/REF_AREA",
+          "skos:notation": "REF_AREA"
         },
-        {
-          "id": "BKN_TYPE",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_TYPE",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/BKN_TYPE",
-            "skos:notation": "BKN_TYPE"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_BKN_TYPE",
-            "skos:notation": "CL_BKN_TYPE"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_AREA_EE",
+          "skos:notation": "CL_AREA_EE"
         },
-        {
-          "id": "BKN_DENOM",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_DENOM",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/BKN_DENOM",
-            "skos:notation": "BKN_DENOM"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_BKN_DENOM",
-            "skos:notation": "CL_BKN_DENOM"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
+      },
+      {
+        "id": "BKN_ITEM",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_ITEM",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/BKN_ITEM",
+          "skos:notation": "BKN_ITEM"
         },
-        {
-          "id": "BKN_SERIES",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_SERIES",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/BKN_SERIES",
-            "skos:notation": "BKN_SERIES"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_BKN_SERIES",
-            "skos:notation": "CL_BKN_SERIES"
-          }
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_BKN_ITEM",
+          "skos:notation": "CL_BKN_ITEM"
         },
-        {
-          "id": "DATA_TYPE_BKN",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).DATA_TYPE_BKN",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/DATA_TYPE_BKN",
-            "skos:notation": "DATA_TYPE_BKN"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_DATA_TYPE_BKN",
-            "skos:notation": "CL_DATA_TYPE_BKN"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/BKN_ITEM"
+      },
+      {
+        "id": "BKN_TYPE",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_TYPE",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/BKN_TYPE",
+          "skos:notation": "BKN_TYPE"
         },
-        {
-          "id": "SERIES_DENOM",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).SERIES_DENOM",
-          "ConceptIdentity": {
-            "agencyID": "ECB",
-            "class": "Concept",
-            "maintainableParentID": "ECB_CONCEPTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/ECB/Concept/SERIES_DENOM",
-            "skos:notation": "SERIES_DENOM"
-          },
-          "qb:codeList": {
-            "agencyID": "ECB",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ECB/Concept/CL_SERIES_DENOM",
-            "skos:notation": "CL_SERIES_DENOM"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_BKN_TYPE",
+          "skos:notation": "CL_BKN_TYPE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/BKN_TYPE"
+      },
+      {
+        "id": "BKN_DENOM",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_DENOM",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/BKN_DENOM",
+          "skos:notation": "BKN_DENOM"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_BKN_DENOM",
+          "skos:notation": "CL_BKN_DENOM"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/BKN_DENOM"
+      },
+      {
+        "id": "BKN_SERIES",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_SERIES",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/BKN_SERIES",
+          "skos:notation": "BKN_SERIES"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_BKN_SERIES",
+          "skos:notation": "CL_BKN_SERIES"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/BKN_SERIES"
+      },
+      {
+        "id": "DATA_TYPE_BKN",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).DATA_TYPE_BKN",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/DATA_TYPE_BKN",
+          "skos:notation": "DATA_TYPE_BKN"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_DATA_TYPE_BKN",
+          "skos:notation": "CL_DATA_TYPE_BKN"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/DATA_TYPE_BKN"
+      },
+      {
+        "id": "SERIES_DENOM",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).SERIES_DENOM",
+        "ConceptIdentity": {
+          "agencyID": "ECB",
+          "class": "Concept",
+          "maintainableParentID": "ECB_CONCEPTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ECB/Concept/SERIES_DENOM",
+          "skos:notation": "SERIES_DENOM"
+        },
+        "qb:codeList": {
+          "agencyID": "ECB",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ECB/Concept/CL_SERIES_DENOM",
+          "skos:notation": "CL_SERIES_DENOM"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/SERIES_DENOM"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "9",
@@ -2356,7 +2378,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -3293,392 +3316,406 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "1",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "SDMX",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
+      {
+        "id": "FREQ",
+        "position": "1",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "ADJUSTMENT",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ADJUSTMENT",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/ADJUSTMENT",
-            "skos:notation": "ADJUSTMENT"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.4",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_ADJUSTMENT",
-            "skos:notation": "CL_ADJUSTMENT"
-          }
+        "qb:codeList": {
+          "agencyID": "SDMX",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
         },
-        {
-          "id": "REF_AREA",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/REF_AREA",
-            "skos:notation": "REF_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.13",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "ADJUSTMENT",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ADJUSTMENT",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/ADJUSTMENT",
+          "skos:notation": "ADJUSTMENT"
         },
-        {
-          "id": "COUNTERPART_AREA",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_AREA",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_AREA",
-            "skos:notation": "COUNTERPART_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.13",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.4",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_ADJUSTMENT",
+          "skos:notation": "CL_ADJUSTMENT"
         },
-        {
-          "id": "REF_SECTOR",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_SECTOR",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/REF_SECTOR",
-            "skos:notation": "REF_SECTOR"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.11",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR",
-            "skos:notation": "CL_SECTOR"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/ADJUSTMENT"
+      },
+      {
+        "id": "REF_AREA",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/REF_AREA",
+          "skos:notation": "REF_AREA"
         },
-        {
-          "id": "COUNTERPART_SECTOR",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_SECTOR",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_SECTOR",
-            "skos:notation": "COUNTERPART_SECTOR"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.11",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR",
-            "skos:notation": "CL_SECTOR"
-          }
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.13",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
         },
-        {
-          "id": "FLOW_STOCK_ENTRY",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FLOW_STOCK_ENTRY",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/FLOW_STOCK_ENTRY",
-            "skos:notation": "FLOW_STOCK_ENTRY"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.1",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_FSENTRY",
-            "skos:notation": "CL_FSENTRY"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
+      },
+      {
+        "id": "COUNTERPART_AREA",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_AREA",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_AREA",
+          "skos:notation": "COUNTERPART_AREA"
         },
-        {
-          "id": "ACCOUNTING_ENTRY",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ACCOUNTING_ENTRY",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/ACCOUNTING_ENTRY",
-            "skos:notation": "ACCOUNTING_ENTRY"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.4",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNT_ENTRY",
-            "skos:notation": "CL_ACCOUNT_ENTRY"
-          }
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.13",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
         },
-        {
-          "id": "INT_ACC_ITEM",
-          "position": "9",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INT_ACC_ITEM",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/INT_ACC_ITEM",
-            "skos:notation": "INT_ACC_ITEM"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.6",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNTS_ITEM",
-            "skos:notation": "CL_ACCOUNTS_ITEM"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA"
+      },
+      {
+        "id": "REF_SECTOR",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).REF_SECTOR",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/REF_SECTOR",
+          "skos:notation": "REF_SECTOR"
         },
-        {
-          "id": "FUNCTIONAL_CAT",
-          "position": "10",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FUNCTIONAL_CAT",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/FUNCTIONAL_CAT",
-            "skos:notation": "FUNCTIONAL_CAT"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.10",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_FUNCTIONAL_CAT",
-            "skos:notation": "CL_FUNCTIONAL_CAT"
-          }
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.11",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR",
+          "skos:notation": "CL_SECTOR"
         },
-        {
-          "id": "INSTR_ASSET",
-          "position": "11",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INSTR_ASSET",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/INSTR_ASSET",
-            "skos:notation": "INSTR_ASSET"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.10",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_INSTR_ASSET",
-            "skos:notation": "CL_INSTR_ASSET"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_SECTOR"
+      },
+      {
+        "id": "COUNTERPART_SECTOR",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COUNTERPART_SECTOR",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_SECTOR",
+          "skos:notation": "COUNTERPART_SECTOR"
         },
-        {
-          "id": "MATURITY",
-          "position": "12",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).MATURITY",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/MATURITY",
-            "skos:notation": "MATURITY"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.7",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_MATURITY",
-            "skos:notation": "CL_MATURITY"
-          }
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.11",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR",
+          "skos:notation": "CL_SECTOR"
         },
-        {
-          "id": "UNIT_MEASURE",
-          "position": "13",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).UNIT_MEASURE",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/UNIT_MEASURE",
-            "skos:notation": "UNIT_MEASURE"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.14",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_UNIT",
-            "skos:notation": "CL_UNIT"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_SECTOR"
+      },
+      {
+        "id": "FLOW_STOCK_ENTRY",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FLOW_STOCK_ENTRY",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/FLOW_STOCK_ENTRY",
+          "skos:notation": "FLOW_STOCK_ENTRY"
         },
-        {
-          "id": "CURRENCY_DENOM",
-          "position": "14",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).CURRENCY_DENOM",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/CURRENCY_DENOM",
-            "skos:notation": "CURRENCY_DENOM"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.14",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_UNIT",
-            "skos:notation": "CL_UNIT"
-          }
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.1",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_FSENTRY",
+          "skos:notation": "CL_FSENTRY"
         },
-        {
-          "id": "VALUATION",
-          "position": "15",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).VALUATION",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/VALUATION",
-            "skos:notation": "VALUATION"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.6",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_VALUATION",
-            "skos:notation": "CL_VALUATION"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FLOW_STOCK_ENTRY"
+      },
+      {
+        "id": "ACCOUNTING_ENTRY",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).ACCOUNTING_ENTRY",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/ACCOUNTING_ENTRY",
+          "skos:notation": "ACCOUNTING_ENTRY"
         },
-        {
-          "id": "COMP_METHOD",
-          "position": "16",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COMP_METHOD",
-          "ConceptIdentity": {
-            "agencyID": "IMF",
-            "class": "Concept",
-            "maintainableParentID": "CS_BOP",
-            "maintainableParentVersion": "1.14",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/IMF/Concept/COMP_METHOD",
-            "skos:notation": "COMP_METHOD"
-          },
-          "qb:codeList": {
-            "agencyID": "IMF",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.2",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/IMF/Concept/CL_COMP_METHOD",
-            "skos:notation": "CL_COMP_METHOD"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.4",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNT_ENTRY",
+          "skos:notation": "CL_ACCOUNT_ENTRY"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/ACCOUNTING_ENTRY"
+      },
+      {
+        "id": "INT_ACC_ITEM",
+        "position": "9",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INT_ACC_ITEM",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/INT_ACC_ITEM",
+          "skos:notation": "INT_ACC_ITEM"
+        },
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.6",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNTS_ITEM",
+          "skos:notation": "CL_ACCOUNTS_ITEM"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/INT_ACC_ITEM"
+      },
+      {
+        "id": "FUNCTIONAL_CAT",
+        "position": "10",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).FUNCTIONAL_CAT",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/FUNCTIONAL_CAT",
+          "skos:notation": "FUNCTIONAL_CAT"
+        },
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.10",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_FUNCTIONAL_CAT",
+          "skos:notation": "CL_FUNCTIONAL_CAT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/FUNCTIONAL_CAT"
+      },
+      {
+        "id": "INSTR_ASSET",
+        "position": "11",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).INSTR_ASSET",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/INSTR_ASSET",
+          "skos:notation": "INSTR_ASSET"
+        },
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.10",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_INSTR_ASSET",
+          "skos:notation": "CL_INSTR_ASSET"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/INSTR_ASSET"
+      },
+      {
+        "id": "MATURITY",
+        "position": "12",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).MATURITY",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/MATURITY",
+          "skos:notation": "MATURITY"
+        },
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.7",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_MATURITY",
+          "skos:notation": "CL_MATURITY"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/MATURITY"
+      },
+      {
+        "id": "UNIT_MEASURE",
+        "position": "13",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).UNIT_MEASURE",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/UNIT_MEASURE",
+          "skos:notation": "UNIT_MEASURE"
+        },
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.14",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_UNIT",
+          "skos:notation": "CL_UNIT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
+      },
+      {
+        "id": "CURRENCY_DENOM",
+        "position": "14",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).CURRENCY_DENOM",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/CURRENCY_DENOM",
+          "skos:notation": "CURRENCY_DENOM"
+        },
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.14",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_UNIT",
+          "skos:notation": "CL_UNIT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/CURRENCY_DENOM"
+      },
+      {
+        "id": "VALUATION",
+        "position": "15",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).VALUATION",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/VALUATION",
+          "skos:notation": "VALUATION"
+        },
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.6",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_VALUATION",
+          "skos:notation": "CL_VALUATION"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/VALUATION"
+      },
+      {
+        "id": "COMP_METHOD",
+        "position": "16",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:BOP(1.14).COMP_METHOD",
+        "ConceptIdentity": {
+          "agencyID": "IMF",
+          "class": "Concept",
+          "maintainableParentID": "CS_BOP",
+          "maintainableParentVersion": "1.14",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/IMF/Concept/COMP_METHOD",
+          "skos:notation": "COMP_METHOD"
+        },
+        "qb:codeList": {
+          "agencyID": "IMF",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.2",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/IMF/Concept/CL_COMP_METHOD",
+          "skos:notation": "CL_COMP_METHOD"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COMP_METHOD"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "17",
@@ -3697,7 +3734,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -3859,216 +3897,222 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "REFERENCE_AREA",
-          "position": "1",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).REFERENCE_AREA",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/REFERENCE_AREA",
-            "skos:notation": "REFERENCE_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.3",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+      {
+        "id": "REFERENCE_AREA",
+        "position": "1",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).REFERENCE_AREA",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/REFERENCE_AREA",
+          "skos:notation": "REFERENCE_AREA"
         },
-        {
-          "id": "SUBJECT",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SUBJECT",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/ACTIVITY",
-            "skos:notation": "ACTIVITY"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "3.1",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_SUBJECT",
-            "skos:notation": "CL_SUBJECT"
-          }
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.3",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
         },
-        {
-          "id": "AGE",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).AGE",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/AGE",
-            "skos:notation": "AGE"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_AGE",
-            "skos:notation": "CL_AGE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/REFERENCE_AREA"
+      },
+      {
+        "id": "SUBJECT",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SUBJECT",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/ACTIVITY",
+          "skos:notation": "ACTIVITY"
         },
-        {
-          "id": "SEX",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SEX",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/SEX",
-            "skos:notation": "SEX"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_SEX",
-            "skos:notation": "CL_SEX"
-          }
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "3.1",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_SUBJECT",
+          "skos:notation": "CL_SUBJECT"
         },
-        {
-          "id": "ACTIVITY",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ACTIVITY",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/ACTIVITY",
-            "skos:notation": "ACTIVITY"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.1",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_ACTIVITY",
-            "skos:notation": "CL_ACTIVITY"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/SUBJECT"
+      },
+      {
+        "id": "AGE",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).AGE",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/AGE",
+          "skos:notation": "AGE"
         },
-        {
-          "id": "ADJUSTMENT",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ADJUSTMENT",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/ADJUSTMENT",
-            "skos:notation": "ADJUSTMENT"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_ADJUSTMENT",
-            "skos:notation": "CL_ADJUSTMENT"
-          }
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_AGE",
+          "skos:notation": "CL_AGE"
         },
-        {
-          "id": "UNIT_MEASURE",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).UNIT_MEASURE",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/UNIT_MEASURE",
-            "skos:notation": "UNIT_MEASURE"
-          },
-          "qb:codeList": {
-            "agencyID": "OECD",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.1",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/OECD/Concept/CL_UNIT",
-            "skos:notation": "CL_UNIT"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/AGE"
+      },
+      {
+        "id": "SEX",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).SEX",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/SEX",
+          "skos:notation": "SEX"
         },
-        {
-          "id": "FREQ",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "OECD",
-            "class": "Concept",
-            "maintainableParentID": "CS_STES",
-            "maintainableParentVersion": "3.1",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/OECD/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "SDMX",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_SEX",
+          "skos:notation": "CL_SEX"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/SEX"
+      },
+      {
+        "id": "ACTIVITY",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ACTIVITY",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/ACTIVITY",
+          "skos:notation": "ACTIVITY"
+        },
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.1",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_ACTIVITY",
+          "skos:notation": "CL_ACTIVITY"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/ACTIVITY"
+      },
+      {
+        "id": "ADJUSTMENT",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).ADJUSTMENT",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/ADJUSTMENT",
+          "skos:notation": "ADJUSTMENT"
+        },
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_ADJUSTMENT",
+          "skos:notation": "CL_ADJUSTMENT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/ADJUSTMENT"
+      },
+      {
+        "id": "UNIT_MEASURE",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).UNIT_MEASURE",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/UNIT_MEASURE",
+          "skos:notation": "UNIT_MEASURE"
+        },
+        "qb:codeList": {
+          "agencyID": "OECD",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.1",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/OECD/Concept/CL_UNIT",
+          "skos:notation": "CL_UNIT"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
+      },
+      {
+        "id": "FREQ",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=OECD:INFRA_ANNUAL_LABOUR(3.1).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "OECD",
+          "class": "Concept",
+          "maintainableParentID": "CS_STES",
+          "maintainableParentVersion": "3.1",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/OECD/Concept/FREQ",
+          "skos:notation": "FREQ"
+        },
+        "qb:codeList": {
+          "agencyID": "SDMX",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "9",
@@ -4088,7 +4132,8 @@
           "TextFormat": {
             "textType": "ReportingTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -4605,502 +4650,519 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "1",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "SDMX",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "2.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
-            "skos:notation": "CL_FREQ"
-          }
+      {
+        "id": "FREQ",
+        "position": "1",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "REF_AREA",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/REF_AREA",
-            "skos:notation": "REF_AREA"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "qb:codeList": {
+          "agencyID": "SDMX",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "2.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ",
+          "skos:notation": "CL_FREQ"
         },
-        {
-          "id": "TRADE_FLOW",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRADE_FLOW",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/TRADE_FLOW",
-            "skos:notation": "TRADE_FLOW"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_TRADE_FLOW",
-            "skos:notation": "CL_TRADE_FLOW"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "REF_AREA",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/REF_AREA",
+          "skos:notation": "REF_AREA"
         },
-        {
-          "id": "COMMODITY_1",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_1",
-            "skos:notation": "COMMODITY_1"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
-            "skos:notation": "CL_COMMODITY"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
         },
-        {
-          "id": "COMMODITY_1_CONF",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1_CONF",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_1_CONF",
-            "skos:notation": "COMMODITY_1_CONF"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
-            "skos:notation": "CL_COMMODITY"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
+      },
+      {
+        "id": "TRADE_FLOW",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRADE_FLOW",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/TRADE_FLOW",
+          "skos:notation": "TRADE_FLOW"
         },
-        {
-          "id": "COMMODITY_2",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_2",
-            "skos:notation": "COMMODITY_2"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
-            "skos:notation": "CL_COMMODITY"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_TRADE_FLOW",
+          "skos:notation": "CL_TRADE_FLOW"
         },
-        {
-          "id": "COMMODITY_2_CONF",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2_CONF",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_2_CONF",
-            "skos:notation": "COMMODITY_2_CONF"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
-            "skos:notation": "CL_COMMODITY"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/TRADE_FLOW"
+      },
+      {
+        "id": "COMMODITY_1",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_1",
+          "skos:notation": "COMMODITY_1"
         },
-        {
-          "id": "COMMODITY_CUSTOM_BKDWN_CH_1",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_1",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_1",
-            "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_1"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
-            "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
+          "skos:notation": "CL_COMMODITY"
         },
-        {
-          "id": "COMMODITY_CUSTOM_BKDWN_CH_2",
-          "position": "9",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_2",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_2",
-            "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_2"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
-            "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_1"
+      },
+      {
+        "id": "COMMODITY_1_CONF",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_1_CONF",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_1_CONF",
+          "skos:notation": "COMMODITY_1_CONF"
         },
-        {
-          "id": "COMMODITY_CUSTOM_BKDWN_CH_3",
-          "position": "10",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_3",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_3",
-            "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_3"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
-            "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
+          "skos:notation": "CL_COMMODITY"
         },
-        {
-          "id": "COUNTERPART_AREA_1",
-          "position": "11",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1",
-            "skos:notation": "COUNTERPART_AREA_1"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_1_CONF"
+      },
+      {
+        "id": "COMMODITY_2",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_2",
+          "skos:notation": "COMMODITY_2"
         },
-        {
-          "id": "COUNTERPART_AREA_1_CONF",
-          "position": "12",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1_CONF",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1_CONF",
-            "skos:notation": "COUNTERPART_AREA_1_CONF"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
+          "skos:notation": "CL_COMMODITY"
         },
-        {
-          "id": "COUNTERPART_AREA_2",
-          "position": "13",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2",
-            "skos:notation": "COUNTERPART_AREA_2"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_2"
+      },
+      {
+        "id": "COMMODITY_2_CONF",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_2_CONF",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_2_CONF",
+          "skos:notation": "COMMODITY_2_CONF"
         },
-        {
-          "id": "COUNTERPART_AREA_2_CONF",
-          "position": "14",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2_CONF",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2_CONF",
-            "skos:notation": "COUNTERPART_AREA_2_CONF"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_AREA",
-            "skos:notation": "CL_AREA"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY",
+          "skos:notation": "CL_COMMODITY"
         },
-        {
-          "id": "TRANSPORT_MODE_BORDER",
-          "position": "15",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER",
-            "skos:notation": "TRANSPORT_MODE_BORDER"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE",
-            "skos:notation": "CL_TRANSPORT_MODE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_2_CONF"
+      },
+      {
+        "id": "COMMODITY_CUSTOM_BKDWN_CH_1",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_1",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_1",
+          "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_1"
         },
-        {
-          "id": "TRANSPORT_MODE_BORDER_CONF",
-          "position": "16",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER_CONF",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER_CONF",
-            "skos:notation": "TRANSPORT_MODE_BORDER_CONF"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE",
-            "skos:notation": "CL_TRANSPORT_MODE"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
+          "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
         },
-        {
-          "id": "CUSTOMS_PROC",
-          "position": "17",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).CUSTOMS_PROC",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/CUSTOMS_PROC",
-            "skos:notation": "CUSTOMS_PROC"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_CUSTOMS_PROC",
-            "skos:notation": "CL_CUSTOMS_PROC"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_1"
+      },
+      {
+        "id": "COMMODITY_CUSTOM_BKDWN_CH_2",
+        "position": "9",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_2",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_2",
+          "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_2"
         },
-        {
-          "id": "ACTIVITY",
-          "position": "18",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).ACTIVITY",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/ACTIVITY",
-            "skos:notation": "ACTIVITY"
-          },
-          "qb:codeList": {
-            "agencyID": "UN",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/UN/Concept/CL_ACTIVITY",
-            "skos:notation": "CL_ACTIVITY"
-          }
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
+          "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
         },
-        {
-          "id": "TRANSFORMATION",
-          "position": "19",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSFORMATION",
-          "ConceptIdentity": {
-            "agencyID": "UN",
-            "class": "Concept",
-            "maintainableParentID": "CS_IMTS",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "xmlns": "",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/UN/Concept/TRANSFORMATION",
-            "skos:notation": "TRANSFORMATION"
-          },
-          "qb:codeList": {
-            "agencyID": "ESTAT",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.2",
-            "xmlns": "",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/ESTAT/Concept/CL_TRANSFORMATION",
-            "skos:notation": "CL_TRANSFORMATION"
-          }
-        }
-      ],
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_2"
+      },
+      {
+        "id": "COMMODITY_CUSTOM_BKDWN_CH_3",
+        "position": "10",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COMMODITY_CUSTOM_BKDWN_CH_3",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_3",
+          "skos:notation": "COMMODITY_CUSTOM_BKDWN_CH_3"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN",
+          "skos:notation": "CL_COMMODITY_CUSTOM_BREAKDOWN"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COMMODITY_CUSTOM_BKDWN_CH_3"
+      },
+      {
+        "id": "COUNTERPART_AREA_1",
+        "position": "11",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1",
+          "skos:notation": "COUNTERPART_AREA_1"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_1"
+      },
+      {
+        "id": "COUNTERPART_AREA_1_CONF",
+        "position": "12",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_1_CONF",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1_CONF",
+          "skos:notation": "COUNTERPART_AREA_1_CONF"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_1_CONF"
+      },
+      {
+        "id": "COUNTERPART_AREA_2",
+        "position": "13",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2",
+          "skos:notation": "COUNTERPART_AREA_2"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_2"
+      },
+      {
+        "id": "COUNTERPART_AREA_2_CONF",
+        "position": "14",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).COUNTERPART_AREA_2_CONF",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2_CONF",
+          "skos:notation": "COUNTERPART_AREA_2_CONF"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_AREA",
+          "skos:notation": "CL_AREA"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/COUNTERPART_AREA_2_CONF"
+      },
+      {
+        "id": "TRANSPORT_MODE_BORDER",
+        "position": "15",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER",
+          "skos:notation": "TRANSPORT_MODE_BORDER"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE",
+          "skos:notation": "CL_TRANSPORT_MODE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TRANSPORT_MODE_BORDER"
+      },
+      {
+        "id": "TRANSPORT_MODE_BORDER_CONF",
+        "position": "16",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSPORT_MODE_BORDER_CONF",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER_CONF",
+          "skos:notation": "TRANSPORT_MODE_BORDER_CONF"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE",
+          "skos:notation": "CL_TRANSPORT_MODE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TRANSPORT_MODE_BORDER_CONF"
+      },
+      {
+        "id": "CUSTOMS_PROC",
+        "position": "17",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).CUSTOMS_PROC",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/CUSTOMS_PROC",
+          "skos:notation": "CUSTOMS_PROC"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_CUSTOMS_PROC",
+          "skos:notation": "CL_CUSTOMS_PROC"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/CUSTOMS_PROC"
+      },
+      {
+        "id": "ACTIVITY",
+        "position": "18",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).ACTIVITY",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/ACTIVITY",
+          "skos:notation": "ACTIVITY"
+        },
+        "qb:codeList": {
+          "agencyID": "UN",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/UN/Concept/CL_ACTIVITY",
+          "skos:notation": "CL_ACTIVITY"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/ACTIVITY"
+      },
+      {
+        "id": "TRANSFORMATION",
+        "position": "19",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UN:IMTS(1.1).TRANSFORMATION",
+        "ConceptIdentity": {
+          "agencyID": "UN",
+          "class": "Concept",
+          "maintainableParentID": "CS_IMTS",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "xmlns": "",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/UN/Concept/TRANSFORMATION",
+          "skos:notation": "TRANSFORMATION"
+        },
+        "qb:codeList": {
+          "agencyID": "ESTAT",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.2",
+          "xmlns": "",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/ESTAT/Concept/CL_TRANSFORMATION",
+          "skos:notation": "CL_TRANSFORMATION"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TRANSFORMATION"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "21",
@@ -5120,7 +5182,8 @@
           "TextFormat": {
             "textType": "ObservationalTimePeriod"
           }
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -5790,224 +5853,231 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE",
-            "skos:notation": "CL_PERIODICITE"
-          }
+      {
+        "id": "FREQ",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "INDICATEUR",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INDICATEUR",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/INDICATEUR",
-            "skos:notation": "INDICATEUR"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR",
-            "skos:notation": "CL_INDICATEUR"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE",
+          "skos:notation": "CL_PERIODICITE"
         },
-        {
-          "id": "COMPTE",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).COMPTE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/COMPTE",
-            "skos:notation": "COMPTE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_COMPTE",
-            "skos:notation": "CL_COMPTE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "INDICATEUR",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INDICATEUR",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/INDICATEUR",
+          "skos:notation": "INDICATEUR"
         },
-        {
-          "id": "INSTRUMENTS_BALANCE_PAIEMENTS",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INSTRUMENTS_BALANCE_PAIEMENTS",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/INSTRUMENT",
-            "skos:notation": "INSTRUMENT"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_INSTRUMENTS_BALANCE_PAIEMENTS",
-            "skos:notation": "CL_INSTRUMENTS_BALANCE_PAIEMENTS"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR",
+          "skos:notation": "CL_INDICATEUR"
         },
-        {
-          "id": "NATURE",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).NATURE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/NATURE",
-            "skos:notation": "NATURE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_NATURE",
-            "skos:notation": "CL_NATURE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/INDICATEUR"
+      },
+      {
+        "id": "COMPTE",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).COMPTE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/COMPTE",
+          "skos:notation": "COMPTE"
         },
-        {
-          "id": "REF_AREA",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE",
-            "skos:notation": "GEOGRAPHIE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO",
-            "skos:notation": "CL_ZONE_GEO"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_COMPTE",
+          "skos:notation": "CL_COMPTE"
         },
-        {
-          "id": "UNIT_MEASURE",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).UNIT_MEASURE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/UNITE",
-            "skos:notation": "UNITE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_UNITE",
-            "skos:notation": "CL_UNITE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/COMPTE"
+      },
+      {
+        "id": "INSTRUMENTS_BALANCE_PAIEMENTS",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).INSTRUMENTS_BALANCE_PAIEMENTS",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/INSTRUMENT",
+          "skos:notation": "INSTRUMENT"
         },
-        {
-          "id": "CORRECTION",
-          "position": "9",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).CORRECTION",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/CORRECTION",
-            "skos:notation": "CORRECTION"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION",
-            "skos:notation": "CL_CORRECTION"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_INSTRUMENTS_BALANCE_PAIEMENTS",
+          "skos:notation": "CL_INSTRUMENTS_BALANCE_PAIEMENTS"
         },
-        {
-          "id": "BASIND",
-          "position": "10",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).BASIND",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/BASE_PER",
-            "skos:notation": "BASE_PER"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_BASIND",
-            "skos:notation": "CL_BASIND"
-          }
-        }
-      ],
+        "@id": "https://loqu.dev/NOAG/Dimension/INSTRUMENTS_BALANCE_PAIEMENTS"
+      },
+      {
+        "id": "NATURE",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).NATURE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/NATURE",
+          "skos:notation": "NATURE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_NATURE",
+          "skos:notation": "CL_NATURE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/NATURE"
+      },
+      {
+        "id": "REF_AREA",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE",
+          "skos:notation": "GEOGRAPHIE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO",
+          "skos:notation": "CL_ZONE_GEO"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
+      },
+      {
+        "id": "UNIT_MEASURE",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).UNIT_MEASURE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/UNITE",
+          "skos:notation": "UNITE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_UNITE",
+          "skos:notation": "CL_UNITE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
+      },
+      {
+        "id": "CORRECTION",
+        "position": "9",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).CORRECTION",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/CORRECTION",
+          "skos:notation": "CORRECTION"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION",
+          "skos:notation": "CL_CORRECTION"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/CORRECTION"
+      },
+      {
+        "id": "BASIND",
+        "position": "10",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:BALANCEPAIEMENTS(1.0).BASIND",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/BASE_PER",
+          "skos:notation": "BASE_PER"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_BASIND",
+          "skos:notation": "CL_BASIND"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/BASIND"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "1",
@@ -6024,7 +6094,8 @@
         },
         "LocalRepresentation": {
           "TextFormat": ""
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
@@ -6657,200 +6728,206 @@
       }
     ],
     "dimensions": [
-      [
-        {
-          "id": "FREQ",
-          "position": "2",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).FREQ",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/FREQ",
-            "skos:notation": "FREQ"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE",
-            "skos:notation": "CL_PERIODICITE"
-          }
+      {
+        "id": "FREQ",
+        "position": "2",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).FREQ",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/FREQ",
+          "skos:notation": "FREQ"
         },
-        {
-          "id": "INDICATEUR",
-          "position": "3",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).INDICATEUR",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/INDICATEUR",
-            "skos:notation": "INDICATEUR"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR",
-            "skos:notation": "CL_INDICATEUR"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE",
+          "skos:notation": "CL_PERIODICITE"
         },
-        {
-          "id": "NATURE",
-          "position": "4",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).NATURE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/NATURE",
-            "skos:notation": "NATURE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_NATURE",
-            "skos:notation": "CL_NATURE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/FREQ"
+      },
+      {
+        "id": "INDICATEUR",
+        "position": "3",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).INDICATEUR",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/INDICATEUR",
+          "skos:notation": "INDICATEUR"
         },
-        {
-          "id": "REF_AREA",
-          "position": "5",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).REF_AREA",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE",
-            "skos:notation": "GEOGRAPHIE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO",
-            "skos:notation": "CL_ZONE_GEO"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR",
+          "skos:notation": "CL_INDICATEUR"
         },
-        {
-          "id": "SEXE",
-          "position": "6",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).SEXE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/SEXE",
-            "skos:notation": "SEXE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_SEXE",
-            "skos:notation": "CL_SEXE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/INDICATEUR"
+      },
+      {
+        "id": "NATURE",
+        "position": "4",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).NATURE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/NATURE",
+          "skos:notation": "NATURE"
         },
-        {
-          "id": "AGE",
-          "position": "7",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).AGE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/AGE",
-            "skos:notation": "AGE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_AGE",
-            "skos:notation": "CL_AGE"
-          }
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_NATURE",
+          "skos:notation": "CL_NATURE"
         },
-        {
-          "id": "UNIT_MEASURE",
-          "position": "8",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).UNIT_MEASURE",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/UNITE",
-            "skos:notation": "UNITE"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_UNITE",
-            "skos:notation": "CL_UNITE"
-          }
+        "@id": "https://loqu.dev/NOAG/Dimension/NATURE"
+      },
+      {
+        "id": "REF_AREA",
+        "position": "5",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).REF_AREA",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE",
+          "skos:notation": "GEOGRAPHIE"
         },
-        {
-          "id": "CORRECTION",
-          "position": "9",
-          "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).CORRECTION",
-          "ConceptIdentity": {
-            "agencyID": "FR1",
-            "class": "Concept",
-            "maintainableParentID": "CONCEPTS_INSEE",
-            "maintainableParentVersion": "1.0",
-            "package": "conceptscheme",
-            "@type": "skos:Concept",
-            "@id": "https://loqu.dev/FR1/Concept/CORRECTION",
-            "skos:notation": "CORRECTION"
-          },
-          "qb:codeList": {
-            "agencyID": "FR1",
-            "class": "Codelist",
-            "package": "codelist",
-            "version": "1.0",
-            "@type": "qb:HierarchicalCodeList",
-            "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION",
-            "skos:notation": "CL_CORRECTION"
-          }
-        }
-      ],
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO",
+          "skos:notation": "CL_ZONE_GEO"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/REF_AREA"
+      },
+      {
+        "id": "SEXE",
+        "position": "6",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).SEXE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/SEXE",
+          "skos:notation": "SEXE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_SEXE",
+          "skos:notation": "CL_SEXE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/SEXE"
+      },
+      {
+        "id": "AGE",
+        "position": "7",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).AGE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/AGE",
+          "skos:notation": "AGE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_AGE",
+          "skos:notation": "CL_AGE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/AGE"
+      },
+      {
+        "id": "UNIT_MEASURE",
+        "position": "8",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).UNIT_MEASURE",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/UNITE",
+          "skos:notation": "UNITE"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_UNITE",
+          "skos:notation": "CL_UNITE"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/UNIT_MEASURE"
+      },
+      {
+        "id": "CORRECTION",
+        "position": "9",
+        "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=FR1:CHOMAGETRIM-NATIONAL(1.0).CORRECTION",
+        "ConceptIdentity": {
+          "agencyID": "FR1",
+          "class": "Concept",
+          "maintainableParentID": "CONCEPTS_INSEE",
+          "maintainableParentVersion": "1.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/FR1/Concept/CORRECTION",
+          "skos:notation": "CORRECTION"
+        },
+        "qb:codeList": {
+          "agencyID": "FR1",
+          "class": "Codelist",
+          "package": "codelist",
+          "version": "1.0",
+          "@type": "qb:HierarchicalCodeList",
+          "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION",
+          "skos:notation": "CL_CORRECTION"
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/CORRECTION"
+      },
       {
         "id": "TIME_PERIOD",
         "position": "1",
@@ -6867,7 +6944,8 @@
         },
         "LocalRepresentation": {
           "TextFormat": ""
-        }
+        },
+        "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
       }
     ],
     "measures": [
