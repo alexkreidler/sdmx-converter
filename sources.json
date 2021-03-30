@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ABS",
+    "data_content_type": "JSON",
+    "url": "https://api.data.abs.gov.au",
+    "name": "Australian Bureau of Statistics"
+  },
+  {
+    "id": "ECB",
+    "url": "https://sdw-wsrest.ecb.europa.eu/service",
+    "name": "European Central Bank",
+    "supports": {
+      "preview": true
+    }
+  },
+  {
+    "id": "IMF",
+    "url": "https://sdmxcentral.imf.org/ws/public/sdmxapi/rest",
+    "name": "International Monetary Fund",
+    "supports": {
+      "provisionagreement": false
+    }
+  },
+  {
+    "id": "INEGI",
+    "url": "https://sdmx.snieg.mx/service/rest",
+    "name": "Instituto Nacional de Estadística y Geografía (MX)",
+    "supports": {
+      "agencyscheme": false,
+      "provisionagreement": false,
+      "structure-specific data": true
+    }
+  },
+  {
+    "id": "INSEE",
+    "name": "Institut national de la statistique et des études économiques (FR)",
+    "url": "https://www.bdm.insee.fr/series/sdmx",
+    "headers": {
+      "Accept": "application/vnd.sdmx.genericdata+xml;version=2.1"
+    },
+    "supports": {
+      "provisionagreement": false
+    }
+  },
+  {
+    "id": "ISTAT",
+    "name": "Instituto Nationale di Statistica (IT)",
+    "url": "http://sdmx.istat.it/SDMXWS/rest",
+    "supports": {
+      "provisionagreement": false,
+      "structure-specific data": true
+    }
+  },
+  {
+    "id": "NB",
+    "name": "Norges Bank (NO)",
+    "url": "https://data.norges-bank.no/api",
+    "supports": {
+      "categoryscheme": false,
+      "structure-specific data": true
+    },
+    "headers": {
+      "Accept": "application/vnd.sdmx.genericdata+xml;version=2.1"
+    }
+  },
+  {
+    "id": "SGR",
+    "url": "https://registry.sdmx.org/ws/rest",
+    "name": "SDMX Global Registry"
+  },
+  {
+    "id": "SPC",
+    "name": "Pacific Data Hub DotStat by The Pacific Community (SPC)",
+    "url": "https://stats-nsi-stable.pacificdata.org/rest",
+    "documentation": "https://docs.pacificdata.org/dotstat",
+    "supports": {
+      "provisionagreement": false
+    }
+  },
+  {
+    "id": "UNICEF",
+    "name": "UN Children's Fund",
+    "url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest",
+    "supports": {
+      "structure-specific data": true
+    }
+  },
+  {
+    "id": "UNSD",
+    "name": "United Nations Statistics Division",
+    "url": "https://data.un.org/WS/rest",
+    "supports": {
+      "preview": true,
+      "provisionagreement": false
+    }
+  },
+  {
+    "id": "WB",
+    "name": "World Bank World Integrated Trade Solution",
+    "url": "http://wits.worldbank.org/API/V1/SDMX/V21/rest",
+    "supports": {
+      "agencyscheme": false,
+      "provisionagreement": false
+    }
+  },
+  {
+    "id": "WB_WDI",
+    "name": "World Bank World Development Indicators",
+    "url": "https://api.worldbank.org/v2/sdmx/rest",
+    "supports": {
+      "provisionagreement": false,
+      "structure-specific data": true
+    }
+  }
+]
