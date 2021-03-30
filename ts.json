@@ -1,33 +1,30 @@
 [
   {
     "agencyID": "ABS",
-    "id": "ABORIGINAL_POP_PROJ",
     "isFinal": "true",
     "version": "1.0.0",
-    "Name": {
-      "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Australia, state and territories, 2016 to 2031",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Conditional",
           "id": "UNIT_MEASURE",
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "UNIT_MEASURE",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/UNIT_MEASURE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ABS",
               "class": "Codelist",
-              "id": "CL_UNIT_MEASURE",
               "package": "codelist",
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ABS/Concept/CL_UNIT_MEASURE"
             }
           }
         },
@@ -42,18 +39,20 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ABS",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ABS/Concept/CL_OBS_STATUS"
             }
           }
         },
@@ -68,14 +67,15 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_COMMENT",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_COMMENT"
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "MEASURE",
@@ -83,18 +83,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "MEASURE",
               "maintainableParentID": "CS_COMMON",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/MEASURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_POP_PROJ",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ"
               }
             }
           },
@@ -104,18 +106,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "SEX",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/SEX"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_SEX",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_SEX"
               }
             }
           },
@@ -125,18 +129,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "AGE",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/AGE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_AGE",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_AGE"
               }
             }
           },
@@ -146,18 +152,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "STATE_TERR",
               "maintainableParentID": "CS_GEOGRAPHY",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/STATE_TERR"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_ASGS_STATE",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_ASGS_STATE"
               }
             }
           },
@@ -167,18 +175,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "PROJ_SER",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/PROJ_SER"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_DEMOG_PROJ_SERIES",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES"
               }
             }
           },
@@ -188,18 +198,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CS_COMMON",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_FREQ"
               }
             }
           }
@@ -210,10 +222,11 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CS_COMMON",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -222,50 +235,54 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CS_COMMON",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE"
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Australia, state and territories, 2016 to 2031",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ"
   },
   {
     "agencyID": "ABS",
-    "id": "ABORIGINAL_POP_PROJ_REMOTE",
     "isFinal": "true",
     "version": "1.0.0",
-    "Name": {
-      "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Remotness Area, 2016 to 2031",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Conditional",
           "id": "UNIT_MEASURE",
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "UNIT_MEASURE",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/UNIT_MEASURE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ABS",
               "class": "Codelist",
-              "id": "CL_UNIT_MEASURE",
               "package": "codelist",
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ABS/Concept/CL_UNIT_MEASURE"
             }
           }
         },
@@ -280,18 +297,20 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ABS",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ABS/Concept/CL_OBS_STATUS"
             }
           }
         },
@@ -306,14 +325,15 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_COMMENT",
             "maintainableParentID": "CS_ATTRIBUTE",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_COMMENT"
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "MEASURE",
@@ -321,18 +341,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "MEASURE",
               "maintainableParentID": "CS_COMMON",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/MEASURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_POP_PROJ",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ"
               }
             }
           },
@@ -342,18 +364,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "SEX",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/SEX"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_SEX",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_SEX"
               }
             }
           },
@@ -363,18 +387,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "AGE",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/AGE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_AGE",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_AGE"
               }
             }
           },
@@ -384,18 +410,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "REMOTE",
               "maintainableParentID": "CS_GEOGRAPHY",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/REMOTE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_REMOTENESS",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_REMOTENESS"
               }
             }
           },
@@ -405,18 +433,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "PROJ_SER",
               "maintainableParentID": "CS_DEMOG",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/PROJ_SER"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_DEMOG_PROJ_SERIES",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES"
               }
             }
           },
@@ -426,18 +456,20 @@
             "ConceptIdentity": {
               "agencyID": "ABS",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CS_COMMON",
               "maintainableParentVersion": "1.0.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ABS/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ABS",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
-                "version": "1.0.0"
+                "version": "1.0.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ABS/Concept/CL_FREQ"
               }
             }
           }
@@ -448,10 +480,11 @@
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CS_COMMON",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -460,35 +493,37 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "ABS",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CS_COMMON",
             "maintainableParentVersion": "1.0.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE"
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Remotness Area, 2016 to 2031",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ_REMOTE"
   },
   {
     "agencyID": "ECB",
-    "id": "ECB_AME1",
     "isExternalReference": "false",
     "isFinal": "false",
     "uri": "https://www.ecb.europa.eu/vocabulary/stats/ame/1",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_AME1(1.0)",
     "version": "1.0",
-    "Name": {
-      "@value": "AMECO",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "TIME_FORMAT",
@@ -521,10 +556,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TIME_FORMAT",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TIME_FORMAT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -545,18 +581,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_OBS_STATUS"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -577,18 +615,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_CONF",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_CONF"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_OBS_CONF",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_OBS_CONF"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -609,10 +649,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_PRE_BREAK",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_PRE_BREAK"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -653,10 +694,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_ECB",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_ECB"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -697,10 +739,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_MU",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_MU"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -741,10 +784,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_PUBLIC",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_PUBLIC"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -782,10 +826,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "COMPILATION",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/COMPILATION"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -823,10 +868,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "EXT_TITLE",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/EXT_TITLE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -864,10 +910,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "EXT_UNIT",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/EXT_UNIT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -905,10 +952,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TITLE_COMPL",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TITLE_COMPL"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -918,7 +966,7 @@
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -927,18 +975,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_FREQ"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -954,18 +1004,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_REF_AREA",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_REF_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_AREA_EE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_AREA_EE"
               },
               "EnumerationFormat": {
                 "maxLength": "4",
@@ -981,18 +1033,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_TRANSFORMATION",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_TRANSFORMATION"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_TRANSFORM",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_TRANSFORM"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -1008,18 +1062,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_AGG_METHOD",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_AGG_METHOD"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_AGG_METHOD",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_AGG_METHOD"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -1035,18 +1091,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_UNIT",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_UNIT"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_UNIT",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_UNIT"
               },
               "EnumerationFormat": {
                 "maxLength": "3",
@@ -1062,18 +1120,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_REFERENCE",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_REFERENCE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_REFERENCE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_REFERENCE"
               },
               "EnumerationFormat": {
                 "maxLength": "3",
@@ -1089,18 +1149,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "AME_ITEM",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/AME_ITEM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AME_ITEM",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AME_ITEM"
               },
               "EnumerationFormat": {
                 "maxLength": "10",
@@ -1117,10 +1179,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1129,17 +1192,18 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_AME1(1.0).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1149,22 +1213,23 @@
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "AMECO",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/ECB/DataStructure/ECB_AME1"
   },
   {
     "agencyID": "ECB",
-    "id": "ECB_BKN1",
     "isExternalReference": "false",
     "isFinal": "false",
     "uri": "https://www.ecb.europa.eu/vocabulary/stats/bkn/1",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_BKN1(1.0)",
     "version": "1.0",
-    "Name": {
-      "@value": "Banknotes Statistics",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "TIME_FORMAT",
@@ -1200,10 +1265,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TIME_FORMAT",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TIME_FORMAT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1224,18 +1290,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_OBS_STATUS"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -1256,18 +1324,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_CONF",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_CONF"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_OBS_CONF",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_OBS_CONF"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -1288,10 +1358,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_PRE_BREAK",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_PRE_BREAK"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1312,10 +1383,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_COM",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_COM"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1359,10 +1431,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "BREAKS",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/BREAKS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1406,18 +1479,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "COLLECTION",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/COLLECTION"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_COLLECTION",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_COLLECTION"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -1461,18 +1536,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "COMPILING_ORG",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/COMPILING_ORG"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_ORGANISATION",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION"
             },
             "EnumerationFormat": {
               "maxLength": "6",
@@ -1516,18 +1593,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "DISS_ORG",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/DISS_ORG"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_ORGANISATION",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION"
             },
             "EnumerationFormat": {
               "maxLength": "6",
@@ -1571,10 +1650,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "DOM_SER_IDS",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/DOM_SER_IDS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1618,10 +1698,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_ECB",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_ECB"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1665,10 +1746,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_MU",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_MU"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1712,10 +1794,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "PUBL_PUBLIC",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/PUBL_PUBLIC"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1756,10 +1839,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "COMPILATION",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/COMPILATION"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1800,18 +1884,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "DECIMALS",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/DECIMALS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_DECIMALS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_DECIMALS"
             },
             "EnumerationFormat": {
               "maxLength": "2",
@@ -1852,10 +1938,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "NAT_TITLE",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/NAT_TITLE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1896,18 +1983,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "SOURCE_AGENCY",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/SOURCE_AGENCY"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_ORGANISATION",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_ORGANISATION"
             },
             "EnumerationFormat": {
               "maxLength": "6",
@@ -1948,10 +2037,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TITLE",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TITLE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -1992,10 +2082,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TITLE_COMPL",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TITLE_COMPL"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2037,18 +2128,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "UNIT",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/UNIT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_UNIT",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_UNIT"
             },
             "EnumerationFormat": {
               "maxLength": "13",
@@ -2089,18 +2182,20 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ECB",
               "class": "Codelist",
-              "id": "CL_UNIT_MULT",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ECB/Concept/CL_UNIT_MULT"
             },
             "EnumerationFormat": {
               "maxLength": "3",
@@ -2110,7 +2205,7 @@
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -2119,18 +2214,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_FREQ"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -2146,18 +2243,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "REF_AREA",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/REF_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_AREA_EE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_AREA_EE"
               },
               "EnumerationFormat": {
                 "maxLength": "2",
@@ -2173,18 +2272,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "BKN_ITEM",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/BKN_ITEM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_BKN_ITEM",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_BKN_ITEM"
               },
               "EnumerationFormat": {
                 "maxLength": "4",
@@ -2200,18 +2301,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "BKN_TYPE",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/BKN_TYPE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_BKN_TYPE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_BKN_TYPE"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -2227,18 +2330,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "BKN_DENOM",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/BKN_DENOM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_BKN_DENOM",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_BKN_DENOM"
               },
               "EnumerationFormat": {
                 "maxLength": "4",
@@ -2254,18 +2359,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "BKN_SERIES",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/BKN_SERIES"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_BKN_SERIES",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_BKN_SERIES"
               },
               "EnumerationFormat": {
                 "maxLength": "2",
@@ -2281,18 +2388,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "DATA_TYPE_BKN",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/DATA_TYPE_BKN"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_DATA_TYPE_BKN",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_DATA_TYPE_BKN"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -2308,18 +2417,20 @@
             "ConceptIdentity": {
               "agencyID": "ECB",
               "class": "Concept",
-              "id": "SERIES_DENOM",
               "maintainableParentID": "ECB_CONCEPTS",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/ECB/Concept/SERIES_DENOM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ECB",
                 "class": "Codelist",
-                "id": "CL_SERIES_DENOM",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ECB/Concept/CL_SERIES_DENOM"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -2336,10 +2447,11 @@
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2348,17 +2460,18 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_BKN1(1.0).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "ECB",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "ECB_CONCEPTS",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ECB/Concept/OBS_VALUE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2368,22 +2481,23 @@
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "Banknotes Statistics",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/ECB/DataStructure/ECB_BKN1"
   },
   {
     "agencyID": "IMF",
-    "id": "BOP",
     "isExternalReference": "false",
     "isFinal": "true",
     "structureURL": "https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IMF/BOP/1.14",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:BOP(1.14)",
     "version": "1.14",
-    "Name": {
-      "@value": "Balance of Payments and International Investment Position",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Conditional",
           "id": "TIME_FORMAT",
@@ -2440,18 +2554,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "TIME_FORMAT",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/TIME_FORMAT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_TIME_FORMAT",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_TIME_FORMAT"
             },
             "EnumerationFormat": {
               "maxLength": "4",
@@ -2472,18 +2588,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ESTAT",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "2.2"
+              "version": "2.2",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ESTAT/Concept/CL_OBS_STATUS"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -2504,18 +2622,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "CONF_STATUS",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/CONF_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_CONF_STATUS",
               "package": "codelist",
-              "version": "1.2"
+              "version": "1.2",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_CONF_STATUS"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -2536,10 +2656,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "PRE_BREAK_VALUE",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/PRE_BREAK_VALUE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2560,10 +2681,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "COMMENT_OBS",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/COMMENT_OBS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2628,10 +2750,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "COMMENT_TS",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/COMMENT_TS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2696,10 +2819,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "TITLE",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/TITLE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -2764,18 +2888,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_UNIT_MULT",
               "package": "codelist",
-              "version": "1.1"
+              "version": "1.1",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT"
             },
             "EnumerationFormat": {
               "maxLength": "2",
@@ -2840,18 +2966,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "DECIMALS",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/DECIMALS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_DECIMALS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_DECIMALS"
             },
             "EnumerationFormat": {
               "maxLength": "2",
@@ -2916,18 +3044,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "TIME_PER_COLLECT",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/TIME_PER_COLLECT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "IMF",
               "class": "Codelist",
-              "id": "CL_TIME_COLLECT",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/IMF/Concept/CL_TIME_COLLECT"
             },
             "EnumerationFormat": {
               "maxLength": "1",
@@ -2992,18 +3122,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "REF_PERIOD_DETAIL",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/REF_PERIOD_DETAIL"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "ESTAT",
               "class": "Codelist",
-              "id": "CL_REF_PERIOD_DTL",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/ESTAT/Concept/CL_REF_PERIOD_DTL"
             },
             "EnumerationFormat": {
               "maxLength": "3",
@@ -3068,18 +3200,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "COMPILING_ORG",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/COMPILING_ORG"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "IMF",
               "class": "Codelist",
-              "id": "CL_ORGANISATION",
               "package": "codelist",
-              "version": "1.10"
+              "version": "1.10",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/IMF/Concept/CL_ORGANISATION"
             },
             "EnumerationFormat": {
               "maxLength": "6",
@@ -3144,10 +3278,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "DATA_COMP",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/DATA_COMP"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -3212,18 +3347,20 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "DISS_ORG",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/DISS_ORG"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "IMF",
               "class": "Codelist",
-              "id": "CL_ORGANISATION",
               "package": "codelist",
-              "version": "1.10"
+              "version": "1.10",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/IMF/Concept/CL_ORGANISATION"
             },
             "EnumerationFormat": {
               "maxLength": "6",
@@ -3288,14 +3425,15 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "TITLE_COMPL",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/TITLE_COMPL"
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -3304,18 +3442,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "SDMX",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
-                "version": "2.0"
+                "version": "2.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -3331,18 +3471,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "ADJUSTMENT",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/ADJUSTMENT"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_ADJUSTMENT",
                 "package": "codelist",
-                "version": "1.4"
+                "version": "1.4",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_ADJUSTMENT"
               },
               "EnumerationFormat": {
                 "maxLength": "7",
@@ -3358,18 +3500,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "REF_AREA",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/REF_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
-                "version": "1.13"
+                "version": "1.13",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_AREA"
               },
               "EnumerationFormat": {
                 "maxLength": "5",
@@ -3385,18 +3529,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "COUNTERPART_AREA",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
-                "version": "1.13"
+                "version": "1.13",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_AREA"
               },
               "EnumerationFormat": {
                 "maxLength": "5",
@@ -3412,18 +3558,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "REF_SECTOR",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/REF_SECTOR"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_SECTOR",
                 "package": "codelist",
-                "version": "1.11"
+                "version": "1.11",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR"
               },
               "EnumerationFormat": {
                 "maxLength": "7",
@@ -3439,18 +3587,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "COUNTERPART_SECTOR",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/COUNTERPART_SECTOR"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_SECTOR",
                 "package": "codelist",
-                "version": "1.11"
+                "version": "1.11",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_SECTOR"
               },
               "EnumerationFormat": {
                 "maxLength": "7",
@@ -3466,18 +3616,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "FLOW_STOCK_ENTRY",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/FLOW_STOCK_ENTRY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_FSENTRY",
                 "package": "codelist",
-                "version": "1.1"
+                "version": "1.1",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_FSENTRY"
               },
               "EnumerationFormat": {
                 "maxLength": "3",
@@ -3493,18 +3645,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "ACCOUNTING_ENTRY",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/ACCOUNTING_ENTRY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_ACCOUNT_ENTRY",
                 "package": "codelist",
-                "version": "1.4"
+                "version": "1.4",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNT_ENTRY"
               },
               "EnumerationFormat": {
                 "maxLength": "5",
@@ -3520,18 +3674,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "INT_ACC_ITEM",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/INT_ACC_ITEM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_ACCOUNTS_ITEM",
                 "package": "codelist",
-                "version": "1.6"
+                "version": "1.6",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_ACCOUNTS_ITEM"
               },
               "EnumerationFormat": {
                 "maxLength": "8",
@@ -3547,18 +3703,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "FUNCTIONAL_CAT",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/FUNCTIONAL_CAT"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_FUNCTIONAL_CAT",
                 "package": "codelist",
-                "version": "1.10"
+                "version": "1.10",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_FUNCTIONAL_CAT"
               },
               "EnumerationFormat": {
                 "maxLength": "6",
@@ -3574,18 +3732,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "INSTR_ASSET",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/INSTR_ASSET"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_INSTR_ASSET",
                 "package": "codelist",
-                "version": "1.10"
+                "version": "1.10",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_INSTR_ASSET"
               },
               "EnumerationFormat": {
                 "maxLength": "7",
@@ -3601,18 +3761,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "MATURITY",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/MATURITY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_MATURITY",
                 "package": "codelist",
-                "version": "1.7"
+                "version": "1.7",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_MATURITY"
               },
               "EnumerationFormat": {
                 "maxLength": "6",
@@ -3628,18 +3790,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "UNIT_MEASURE",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/UNIT_MEASURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_UNIT",
                 "package": "codelist",
-                "version": "1.14"
+                "version": "1.14",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_UNIT"
               },
               "EnumerationFormat": {
                 "maxLength": "15",
@@ -3655,18 +3819,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "CURRENCY_DENOM",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/CURRENCY_DENOM"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_UNIT",
                 "package": "codelist",
-                "version": "1.14"
+                "version": "1.14",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_UNIT"
               },
               "EnumerationFormat": {
                 "maxLength": "15",
@@ -3682,18 +3848,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "VALUATION",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/VALUATION"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_VALUATION",
                 "package": "codelist",
-                "version": "1.6"
+                "version": "1.6",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_VALUATION"
               },
               "EnumerationFormat": {
                 "maxLength": "2",
@@ -3709,18 +3877,20 @@
             "ConceptIdentity": {
               "agencyID": "IMF",
               "class": "Concept",
-              "id": "COMP_METHOD",
               "maintainableParentID": "CS_BOP",
               "maintainableParentVersion": "1.14",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/IMF/Concept/COMP_METHOD"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "IMF",
                 "class": "Codelist",
-                "id": "CL_COMP_METHOD",
                 "package": "codelist",
-                "version": "1.2"
+                "version": "1.2",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/IMF/Concept/CL_COMP_METHOD"
               },
               "EnumerationFormat": {
                 "maxLength": "1",
@@ -3737,10 +3907,11 @@
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -3749,17 +3920,18 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF:BOP(1.14).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "IMF",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CS_BOP",
             "maintainableParentVersion": "1.14",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/IMF/Concept/OBS_VALUE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -3769,20 +3941,21 @@
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "Balance of Payments and International Investment Position",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/IMF/DataStructure/BOP"
   },
   {
     "agencyID": "OECD",
-    "id": "INFRA_ANNUAL_LABOUR",
     "isFinal": "true",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=OECD:INFRA_ANNUAL_LABOUR(3.1)",
     "version": "3.1",
-    "Name": {
-      "@value": "Infraannual Labour",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "DOMAIN",
@@ -3796,20 +3969,22 @@
           "ConceptIdentity": {
             "agencyID": "OECD",
             "class": "Concept",
-            "id": "DOMAIN",
             "maintainableParentID": "CS_STES",
             "maintainableParentVersion": "3.1",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/OECD/Concept/DOMAIN"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "OECD",
               "class": "Codelist",
-              "id": "CL_DOMAIN",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/OECD/Concept/CL_DOMAIN"
             }
           }
         },
@@ -3826,20 +4001,22 @@
           "ConceptIdentity": {
             "agencyID": "OECD",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CS_STES",
             "maintainableParentVersion": "3.1",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/OECD/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
               "version": "2.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_OBS_STATUS"
             }
           }
         },
@@ -3882,20 +4059,22 @@
           "ConceptIdentity": {
             "agencyID": "OECD",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "CS_STES",
             "maintainableParentVersion": "3.1",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/OECD/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_UNIT_MULT",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT"
             },
             "EnumerationFormat": {
               "textType": "String"
@@ -3903,7 +4082,7 @@
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "REFERENCE_AREA",
@@ -3912,20 +4091,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "REFERENCE_AREA",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/REFERENCE_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.3",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_AREA"
               }
             }
           },
@@ -3936,20 +4117,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "ACTIVITY",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/ACTIVITY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_SUBJECT",
                 "package": "codelist",
                 "version": "3.1",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_SUBJECT"
               }
             }
           },
@@ -3960,20 +4143,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "AGE",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/AGE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_AGE",
                 "package": "codelist",
                 "version": "2.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_AGE"
               }
             }
           },
@@ -3984,20 +4169,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "SEX",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/SEX"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_SEX",
                 "package": "codelist",
                 "version": "2.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_SEX"
               }
             }
           },
@@ -4008,20 +4195,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "ACTIVITY",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/ACTIVITY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_ACTIVITY",
                 "package": "codelist",
                 "version": "1.1",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_ACTIVITY"
               }
             }
           },
@@ -4032,20 +4221,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "ADJUSTMENT",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/ADJUSTMENT"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_ADJUSTMENT",
                 "package": "codelist",
                 "version": "2.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_ADJUSTMENT"
               }
             }
           },
@@ -4056,20 +4247,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "UNIT_MEASURE",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/UNIT_MEASURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "OECD",
                 "class": "Codelist",
-                "id": "CL_UNIT",
                 "package": "codelist",
                 "version": "2.1",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/OECD/Concept/CL_UNIT"
               }
             }
           },
@@ -4080,20 +4273,22 @@
             "ConceptIdentity": {
               "agencyID": "OECD",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CS_STES",
               "maintainableParentVersion": "3.1",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/OECD/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "SDMX",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
                 "version": "2.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ"
               }
             }
           }
@@ -4105,11 +4300,12 @@
           "ConceptIdentity": {
             "agencyID": "OECD",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CS_STES",
             "maintainableParentVersion": "3.1",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/OECD/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4118,18 +4314,19 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=OECD:INFRA_ANNUAL_LABOUR(3.1).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "OECD",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CS_STES",
             "maintainableParentVersion": "3.1",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/OECD/Concept/OBS_VALUE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4138,20 +4335,21 @@
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "Infraannual Labour",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/OECD/DataStructure/INFRA_ANNUAL_LABOUR"
   },
   {
     "agencyID": "UN",
-    "id": "IMTS",
     "isFinal": "true",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=UN:IMTS(1.1)",
     "version": "1.1",
-    "Name": {
-      "@value": "International Merchandise Trade Statistics",
-      "@lang": "en"
-    },
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "UNIT_MULT",
@@ -4165,20 +4363,22 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_UNIT_MULT",
               "package": "codelist",
               "version": "1.1",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_UNIT_MULT"
             }
           }
         },
@@ -4195,20 +4395,22 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "UNIT_MEASURE",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/UNIT_MEASURE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "UN",
               "class": "Codelist",
-              "id": "CL_UNIT_MEASURE",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/UN/Concept/CL_UNIT_MEASURE"
             }
           }
         },
@@ -4225,11 +4427,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COMMENT",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COMMENT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4244,20 +4447,22 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "TRADE_SYSTEM",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/TRADE_SYSTEM"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "UN",
               "class": "Codelist",
-              "id": "CL_TRADE_SYSTEM",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/UN/Concept/CL_TRADE_SYSTEM"
             }
           }
         },
@@ -4352,11 +4557,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COMMODITY_CUSTOM_BREAKDOWN_CODE",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BREAKDOWN_CODE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4455,11 +4661,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COMMODITY_CUSTOM_BREAKDOWN_DESC",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BREAKDOWN_DESC"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4480,20 +4687,22 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COUNTERPART_AREA_1_TYPE",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1_TYPE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "UN",
               "class": "Codelist",
-              "id": "CL_PARTNER_TYPE",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/UN/Concept/CL_PARTNER_TYPE"
             }
           }
         },
@@ -4510,20 +4719,22 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COUNTERPART_AREA_2_TYPE",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2_TYPE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "UN",
               "class": "Codelist",
-              "id": "CL_PARTNER_TYPE",
               "package": "codelist",
               "version": "1.0",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/UN/Concept/CL_PARTNER_TYPE"
             }
           }
         },
@@ -4540,11 +4751,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COUNTERPART_AREA_1_ANNOTATION",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1_ANNOTATION"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4565,11 +4777,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "COUNTERPART_AREA_2_ANNOTATION",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2_ANNOTATION"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -4590,25 +4803,27 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "SDMX",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
               "version": "2.1",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/SDMX/Concept/CL_OBS_STATUS"
             }
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -4617,20 +4832,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "SDMX",
                 "class": "Codelist",
-                "id": "CL_FREQ",
                 "package": "codelist",
                 "version": "2.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/SDMX/Concept/CL_FREQ"
               }
             }
           },
@@ -4641,20 +4858,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "REF_AREA",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/REF_AREA"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_AREA"
               }
             }
           },
@@ -4665,20 +4884,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "TRADE_FLOW",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/TRADE_FLOW"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_TRADE_FLOW",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_TRADE_FLOW"
               }
             }
           },
@@ -4689,20 +4910,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_1",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_1"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY"
               }
             }
           },
@@ -4713,20 +4936,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_1_CONF",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_1_CONF"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY"
               }
             }
           },
@@ -4737,20 +4962,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_2",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_2"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY"
               }
             }
           },
@@ -4761,20 +4988,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_2_CONF",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_2_CONF"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY"
               }
             }
           },
@@ -4785,20 +5014,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_CUSTOM_BKDWN_CH_1",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_1"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY_CUSTOM_BREAKDOWN",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN"
               }
             }
           },
@@ -4809,20 +5040,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_CUSTOM_BKDWN_CH_2",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_2"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY_CUSTOM_BREAKDOWN",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN"
               }
             }
           },
@@ -4833,20 +5066,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COMMODITY_CUSTOM_BKDWN_CH_3",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COMMODITY_CUSTOM_BKDWN_CH_3"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_COMMODITY_CUSTOM_BREAKDOWN",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_COMMODITY_CUSTOM_BREAKDOWN"
               }
             }
           },
@@ -4857,20 +5092,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COUNTERPART_AREA_1",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_AREA"
               }
             }
           },
@@ -4881,20 +5118,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COUNTERPART_AREA_1_CONF",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_1_CONF"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_AREA"
               }
             }
           },
@@ -4905,20 +5144,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COUNTERPART_AREA_2",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_AREA"
               }
             }
           },
@@ -4929,20 +5170,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "COUNTERPART_AREA_2_CONF",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/COUNTERPART_AREA_2_CONF"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_AREA",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_AREA"
               }
             }
           },
@@ -4953,20 +5196,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "TRANSPORT_MODE_BORDER",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_TRANSPORT_MODE",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE"
               }
             }
           },
@@ -4977,20 +5222,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "TRANSPORT_MODE_BORDER_CONF",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/TRANSPORT_MODE_BORDER_CONF"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_TRANSPORT_MODE",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_TRANSPORT_MODE"
               }
             }
           },
@@ -5001,20 +5248,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "CUSTOMS_PROC",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/CUSTOMS_PROC"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_CUSTOMS_PROC",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_CUSTOMS_PROC"
               }
             }
           },
@@ -5025,20 +5274,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "ACTIVITY",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/ACTIVITY"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "UN",
                 "class": "Codelist",
-                "id": "CL_ACTIVITY",
                 "package": "codelist",
                 "version": "1.0",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/UN/Concept/CL_ACTIVITY"
               }
             }
           },
@@ -5049,20 +5300,22 @@
             "ConceptIdentity": {
               "agencyID": "UN",
               "class": "Concept",
-              "id": "TRANSFORMATION",
               "maintainableParentID": "CS_IMTS",
               "maintainableParentVersion": "1.0",
               "package": "conceptscheme",
-              "xmlns": ""
+              "xmlns": "",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/UN/Concept/TRANSFORMATION"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "ESTAT",
                 "class": "Codelist",
-                "id": "CL_TRANSFORMATION",
                 "package": "codelist",
                 "version": "1.2",
-                "xmlns": ""
+                "xmlns": "",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/ESTAT/Concept/CL_TRANSFORMATION"
               }
             }
           }
@@ -5074,11 +5327,12 @@
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5087,31 +5341,37 @@
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=UN:IMTS(1.1).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "UN",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CS_IMTS",
             "maintainableParentVersion": "1.0",
             "package": "conceptscheme",
-            "xmlns": ""
+            "xmlns": "",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/UN/Concept/OBS_VALUE"
           }
         }
       ]
-    }
+    },
+    "name": {
+      "@value": "International Merchandise Trade Statistics",
+      "@lang": "en"
+    },
+    "@type": "qb:DataStructureDefinition",
+    "@id": "https://loqu.dev/UN/DataStructure/IMTS"
   },
   {
     "agencyID": "FR1",
     "id": "BALANCEPAIEMENTS",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=FR1:BALANCEPAIEMENTS(1.0)",
     "version": "1.0",
-    "Name": {},
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "UNIT_MULT",
@@ -5150,10 +5410,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5201,10 +5462,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "IDBANK",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/IDBANK"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5252,10 +5514,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TITLE_FR",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TITLE_FR"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5302,10 +5565,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TITLE_EN",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TITLE_EN"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5352,10 +5616,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "LAST_UPDATE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/LAST_UPDATE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5401,10 +5666,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "DECIMALS",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/DECIMALS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5452,18 +5718,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_STATUS"
             }
           }
         },
@@ -5505,18 +5773,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_QUAL",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_QUAL"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_QUAL",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_QUAL"
             }
           }
         },
@@ -5558,18 +5828,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_REV",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_REV"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_REV",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_REV"
             }
           }
         },
@@ -5611,18 +5883,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_CONF",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_CONF"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_CONF",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_CONF"
             }
           }
         },
@@ -5664,18 +5938,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_TYPE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_TYPE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_TYPE",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_TYPE"
             }
           }
         },
@@ -5717,10 +5993,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "DATE_JO",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/DATE_JO"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -5729,7 +6006,7 @@
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -5738,18 +6015,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_PERIODICITE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE"
               }
             }
           },
@@ -5760,18 +6039,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "INDICATEUR",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/INDICATEUR"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_INDICATEUR",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR"
               }
             }
           },
@@ -5782,18 +6063,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "COMPTE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/COMPTE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_COMPTE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_COMPTE"
               }
             }
           },
@@ -5804,18 +6087,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "INSTRUMENT",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/INSTRUMENT"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_INSTRUMENTS_BALANCE_PAIEMENTS",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_INSTRUMENTS_BALANCE_PAIEMENTS"
               }
             }
           },
@@ -5826,18 +6111,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "NATURE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/NATURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_NATURE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_NATURE"
               }
             }
           },
@@ -5848,18 +6135,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "GEOGRAPHIE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_ZONE_GEO",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO"
               }
             }
           },
@@ -5870,18 +6159,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "UNITE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/UNITE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_UNITE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_UNITE"
               }
             }
           },
@@ -5892,18 +6183,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "CORRECTION",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/CORRECTION"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_CORRECTION",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION"
               }
             }
           },
@@ -5914,18 +6207,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "BASE_PER",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/BASE_PER"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_BASIND",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_BASIND"
               }
             }
           }
@@ -5937,40 +6232,42 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": ""
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:BALANCEPAIEMENTS(1.0).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE"
           }
         }
       ]
-    }
+    },
+    "name": {}
   },
   {
     "agencyID": "FR1",
     "id": "CHOMAGETRIM-NATIONAL",
     "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=FR1:CHOMAGETRIM-NATIONAL(1.0)",
     "version": "1.0",
-    "Name": {},
-    "Components": {
-      "Attributes": [
+    "components": {
+      "attributes": [
         {
           "assignmentStatus": "Mandatory",
           "id": "UNIT_MULT",
@@ -6006,10 +6303,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "UNIT_MULT",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/UNIT_MULT"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6054,10 +6352,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "IDBANK",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/IDBANK"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6102,10 +6401,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TITLE_FR",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TITLE_FR"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6149,10 +6449,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TITLE_EN",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TITLE_EN"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6196,10 +6497,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "LAST_UPDATE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/LAST_UPDATE"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6242,10 +6544,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "DECIMALS",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/DECIMALS"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6290,18 +6593,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_STATUS",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_STATUS"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_STATUS",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_STATUS"
             }
           }
         },
@@ -6340,18 +6645,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_QUAL",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_QUAL"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_QUAL",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_QUAL"
             }
           }
         },
@@ -6390,18 +6697,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_REV",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_REV"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_REV",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_REV"
             }
           }
         },
@@ -6440,18 +6749,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_CONF",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_CONF"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_CONF",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_CONF"
             }
           }
         },
@@ -6490,18 +6801,20 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_TYPE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_TYPE"
           },
           "LocalRepresentation": {
             "Enumeration": {
               "agencyID": "FR1",
               "class": "Codelist",
-              "id": "CL_OBS_TYPE",
               "package": "codelist",
-              "version": "1.0"
+              "version": "1.0",
+              "@type": "qb:HierarchicalCodeList",
+              "@id": "https://loqu.dev/FR1/Concept/CL_OBS_TYPE"
             }
           }
         },
@@ -6540,10 +6853,11 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "DATE_JO",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/DATE_JO"
           },
           "LocalRepresentation": {
             "TextFormat": {
@@ -6552,7 +6866,7 @@
           }
         }
       ],
-      "Dimensions": [
+      "dimensions": [
         [
           {
             "id": "FREQ",
@@ -6561,18 +6875,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "FREQ",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/FREQ"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_PERIODICITE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_PERIODICITE"
               }
             }
           },
@@ -6583,18 +6899,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "INDICATEUR",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/INDICATEUR"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_INDICATEUR",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_INDICATEUR"
               }
             }
           },
@@ -6605,18 +6923,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "NATURE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/NATURE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_NATURE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_NATURE"
               }
             }
           },
@@ -6627,18 +6947,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "GEOGRAPHIE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/GEOGRAPHIE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_ZONE_GEO",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_ZONE_GEO"
               }
             }
           },
@@ -6649,18 +6971,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "SEXE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/SEXE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_SEXE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_SEXE"
               }
             }
           },
@@ -6671,18 +6995,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "AGE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/AGE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_AGE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_AGE"
               }
             }
           },
@@ -6693,18 +7019,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "UNITE",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/UNITE"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_UNITE",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_UNITE"
               }
             }
           },
@@ -6715,18 +7043,20 @@
             "ConceptIdentity": {
               "agencyID": "FR1",
               "class": "Concept",
-              "id": "CORRECTION",
               "maintainableParentID": "CONCEPTS_INSEE",
               "maintainableParentVersion": "1.0",
-              "package": "conceptscheme"
+              "package": "conceptscheme",
+              "@type": "skos:Concept",
+              "@id": "https://loqu.dev/FR1/Concept/CORRECTION"
             },
             "LocalRepresentation": {
               "Enumeration": {
                 "agencyID": "FR1",
                 "class": "Codelist",
-                "id": "CL_CORRECTION",
                 "package": "codelist",
-                "version": "1.0"
+                "version": "1.0",
+                "@type": "qb:HierarchicalCodeList",
+                "@id": "https://loqu.dev/FR1/Concept/CL_CORRECTION"
               }
             }
           }
@@ -6738,30 +7068,33 @@
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "TIME_PERIOD",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/TIME_PERIOD"
           },
           "LocalRepresentation": {
             "TextFormat": ""
           }
         }
       ],
-      "Measures": [
+      "measures": [
         {
           "id": "OBS_VALUE",
           "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=FR1:CHOMAGETRIM-NATIONAL(1.0).OBS_VALUE",
           "ConceptIdentity": {
             "agencyID": "FR1",
             "class": "Concept",
-            "id": "OBS_VALUE",
             "maintainableParentID": "CONCEPTS_INSEE",
             "maintainableParentVersion": "1.0",
-            "package": "conceptscheme"
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/FR1/Concept/OBS_VALUE"
           }
         }
       ]
-    }
+    },
+    "name": {}
   }
 ]
