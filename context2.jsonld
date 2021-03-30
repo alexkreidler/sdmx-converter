@@ -1,13 +1,12 @@
 {
   "@context": {
     "qb": "http://purl.org/linked-data/cube#",
-    "@base": "https://data.org/",
-    "@vocab": "http://purl.org/linked-data/cube#",
+    "@base": "https://base.loqu.dev/",
+    "@vocab": "http://vpcab.loqu.dev/",
     "id":  {"@type": "@id", "@id": "@id"},
-    "DataStructures": {
-      "@type": "qb:Dataset",
-      "@container": "@list"
-    },
-    "Attribute": "qb:attribute"
+    "attributes": "qb:attribute",
+    "dimensions": "qb:dimension",
+    "measures": "qb:measure",
+    "ConceptIdentity": "qb:concept"
   }
 }

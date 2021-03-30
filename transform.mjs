@@ -48,7 +48,10 @@ const stages = [
   jsont.pathRule('.Ref', (d) => d.match),
   // Select DSDs
   jsont.pathRule('.{.isFinal && .version}', (d) => Object.assign(d.context, {"@type": "qb:DataStructureDefinition", "@id": createDataStructureIRI(d.context), id: undefined})),
-  jsont.pathRule('.{.class && .agencyID && .id}', (d) => Object.assign(d.context, {"@type": getType(d.match), "@id": createIRI(d.match), id: undefined})),
+  jsont.pathRule('.{.class && .agencyID && .id}', (d) => Object.assign(d.context, {"@type": getType(d.match), "@id": createIRI(d.match), id: undefined, "skos:notation": d.match.id})),
+  jsont.pathRule('.components', (d) =>  Object.assign(d.context, {...d.match, components:undefined})),
+  jsont.pathRule('.LocalRepresentation{.Enumeration}', (d) =>  Object.assign(d.context, {"qb:codeList": d.match.Enumeration, LocalRepresentation: undefined})),
+  // codeList
   // jsont.pathRule('.{.id}', d=> d)
 
 //   agencyID
@@ -62,4 +65,16 @@ for (let rules of stages.map((s) => [s, jsont.identity])) {
 }
 
 
-console.log(JSON.stringify(transformed));
+const transformFile = "./ts.json"
+const withContext = "./withContext.json"
+fs.writeFileSync(transformFile, JSON.stringify(transformed, undefined, 2))
+
+let context = JSON.parse(fs.readFileSync("./context2.jsonld", "utf-8"))
+
+let out = {
+  "@context": context,
+  "@graph": transformed.slice(1, 4)
+}
+
+fs.writeFileSync(withContext, JSON.stringify(out, undefined, 2))
+
