@@ -21,7 +21,7 @@ for file in $work_dir/**/DataStructures/*.xml; do
 
     trap "rm -f '$tmpfile'; exit 1" 0 1 2 3 13 15
 
-    if cat $file | dasel -r xml -w json -s ".Structure.Structures.DataStructures.DataStructure" | sed -e 's/-\([^"]*\)/\1"/g' > "$tmpfile"
+    if cat $file | dasel -r xml -w json -s ".Structure.Structures.DataStructures.DataStructure" | sed -e 's/-\([^"]*\)/\1/g' > "$tmpfile"
     then mv "$tmpfile" "$outfile"
     else rm "$tmpfile"
     fi
