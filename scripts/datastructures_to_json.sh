@@ -4,8 +4,6 @@ set -o pipefail
 
 trap "echo Exited!; exit;" SIGINT SIGTERM
 
-sources=$(cat sources.json | jq '[.[] | { id, url: ( .url + "/" ) }]')
-
 work_dir="/mnt/data/sdmx"
 tmp_dir="$work_dir/tmp"
 mkdir -p $tmp_dir

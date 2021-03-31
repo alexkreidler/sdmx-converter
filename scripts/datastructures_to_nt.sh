@@ -6,7 +6,7 @@ work_dir="/mnt/data/sdmx"
 
 shopt -s globstar
 
-for file in $work_dir/**/Dataflows.xml; do
+for file in $work_dir/**/DataStructures/*.jsonld; do
     echo "Converting $file"
-    cat $file | dasel -r xml -w json >${file%.xml}.json
+    rdf-converter convert $file "${file%.jsonld}.nt"
 done
