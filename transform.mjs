@@ -49,7 +49,7 @@ const stages = [
   jsont.pathRule('.Name{."#text" && .lang}', (d) =>
     Object.assign(d.context, {
       Name: undefined,
-      name: { '@value': d.match['#text'], '@lang': d.match.lang },
+      name: { '@value': d.match['#text'], '@language': d.match.lang },
     })
   ),
   jsont.pathRule('.AttributeRelationship{.None==""}', (d) =>
@@ -140,7 +140,7 @@ let context = JSON.parse(fs.readFileSync('./context2.jsonld', 'utf-8'));
 
 let out = {
   '@context': context["@context"],
-  '@graph': transformed.slice(1, 4),
+  '@graph': transformed.slice(0, 4),
 };
 
 fs.writeFileSync(withContext, JSON.stringify(out, undefined, 2));

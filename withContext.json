@@ -2,6 +2,8 @@
   "@context": {
     "qb": "http://purl.org/linked-data/cube#",
     "sdmx": "http://sdmx.loqu.dev/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "@base": "https://base.loqu.dev/",
     "id": {
       "@type": "@id",
@@ -13,7 +15,8 @@
     "ConceptIdentity": "qb:concept",
     "version": "sdmx:version",
     "urn": "sdmx:urn",
-    "assignmentStatus": "sdmx:assignmentStatus"
+    "assignmentStatus": "sdmx:assignmentStatus",
+    "name": "rdfs:label"
   },
   "@graph": [
     {
@@ -21,8 +24,263 @@
       "isFinal": "true",
       "version": "1.0.0",
       "name": {
+        "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Australia, state and territories, 2016 to 2031",
+        "@language": "en"
+      },
+      "@type": "qb:DataStructureDefinition",
+      "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ",
+      "attributes": [
+        {
+          "assignmentStatus": "Conditional",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_ATTRIBUTE",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/UNIT_MEASURE",
+            "skos:notation": "UNIT_MEASURE"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_UNIT_MEASURE",
+            "skos:notation": "CL_UNIT_MEASURE"
+          },
+          "@id": "https://loqu.dev/NOAG/Attribute/UNIT_MEASURE"
+        },
+        {
+          "assignmentStatus": "Conditional",
+          "AttributeRelationship": {
+            "PrimaryMeasure": {
+              "id": "OBS_VALUE"
+            }
+          },
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_ATTRIBUTE",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_STATUS",
+            "skos:notation": "OBS_STATUS"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_OBS_STATUS",
+            "skos:notation": "CL_OBS_STATUS"
+          },
+          "@id": "https://loqu.dev/NOAG/Attribute/OBS_STATUS"
+        },
+        {
+          "assignmentStatus": "Conditional",
+          "AttributeRelationship": {
+            "PrimaryMeasure": {
+              "id": "OBS_VALUE"
+            }
+          },
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_ATTRIBUTE",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/OBS_COMMENT",
+            "skos:notation": "OBS_COMMENT"
+          },
+          "@id": "https://loqu.dev/NOAG/Attribute/OBS_COMMENT"
+        }
+      ],
+      "dimensions": [
+        {
+          "position": "1",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_COMMON",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/MEASURE",
+            "skos:notation": "MEASURE"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_POP_PROJ",
+            "skos:notation": "CL_POP_PROJ"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/MEASURE"
+        },
+        {
+          "position": "2",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_DEMOG",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/SEX",
+            "skos:notation": "SEX"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_SEX",
+            "skos:notation": "CL_SEX"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/SEX_ABS"
+        },
+        {
+          "position": "3",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_DEMOG",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/AGE",
+            "skos:notation": "AGE"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_AGE",
+            "skos:notation": "CL_AGE"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/AGE"
+        },
+        {
+          "position": "4",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_GEOGRAPHY",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/STATE_TERR",
+            "skos:notation": "STATE_TERR"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_ASGS_STATE",
+            "skos:notation": "CL_ASGS_STATE"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/ASGS_2011"
+        },
+        {
+          "position": "5",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_DEMOG",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/PROJ_SER",
+            "skos:notation": "PROJ_SER"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_DEMOG_PROJ_SERIES",
+            "skos:notation": "CL_DEMOG_PROJ_SERIES"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/PROJ_SERIES"
+        },
+        {
+          "position": "6",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_COMMON",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/FREQ",
+            "skos:notation": "FREQ"
+          },
+          "qb:codeList": {
+            "agencyID": "ABS",
+            "class": "Codelist",
+            "package": "codelist",
+            "version": "1.0.0",
+            "@type": "qb:HierarchicalCodeList",
+            "@id": "https://loqu.dev/ABS/Concept/CL_FREQ",
+            "skos:notation": "CL_FREQ"
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/FREQUENCY"
+        },
+        {
+          "position": "7",
+          "ConceptIdentity": {
+            "agencyID": "ABS",
+            "class": "Concept",
+            "maintainableParentID": "CS_COMMON",
+            "maintainableParentVersion": "1.0.0",
+            "package": "conceptscheme",
+            "@type": "skos:Concept",
+            "@id": "https://loqu.dev/ABS/Concept/TIME_PERIOD",
+            "skos:notation": "TIME_PERIOD"
+          },
+          "LocalRepresentation": {
+            "TextFormat": {
+              "textType": "ObservationalTimePeriod"
+            }
+          },
+          "@id": "https://loqu.dev/NOAG/Dimension/TIME_PERIOD"
+        }
+      ],
+      "measures": {
+        "ConceptIdentity": {
+          "agencyID": "ABS",
+          "class": "Concept",
+          "maintainableParentID": "CS_COMMON",
+          "maintainableParentVersion": "1.0.0",
+          "package": "conceptscheme",
+          "@type": "skos:Concept",
+          "@id": "https://loqu.dev/ABS/Concept/OBS_VALUE",
+          "skos:notation": "OBS_VALUE"
+        },
+        "@id": "https://loqu.dev/NOAG/Measure/OBS_VALUE"
+      }
+    },
+    {
+      "agencyID": "ABS",
+      "isFinal": "true",
+      "version": "1.0.0",
+      "name": {
         "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Remotness Area, 2016 to 2031",
-        "@lang": "en"
+        "@language": "en"
       },
       "@type": "qb:DataStructureDefinition",
       "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ_REMOTE",
@@ -280,7 +538,7 @@
       "version": "1.0",
       "name": {
         "@value": "AMECO",
-        "@lang": "en"
+        "@language": "en"
       },
       "@type": "qb:DataStructureDefinition",
       "@id": "https://loqu.dev/ECB/DataStructure/ECB_AME1",
@@ -946,7 +1204,7 @@
       "version": "1.0",
       "name": {
         "@value": "Banknotes Statistics",
-        "@lang": "en"
+        "@language": "en"
       },
       "@type": "qb:DataStructureDefinition",
       "@id": "https://loqu.dev/ECB/DataStructure/ECB_BKN1",

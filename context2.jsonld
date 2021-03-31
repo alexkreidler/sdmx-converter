@@ -2,6 +2,8 @@
   "@context": {
     "qb": "http://purl.org/linked-data/cube#",
     "sdmx": "http://sdmx.loqu.dev/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "@base": "https://base.loqu.dev/",
     "id":  {"@type": "@id", "@id": "@id"},
     "attributes": "qb:attribute",
@@ -10,7 +12,8 @@
     "ConceptIdentity": "qb:concept",
     "version": "sdmx:version",
     "urn": "sdmx:urn",
-    "assignmentStatus": "sdmx:assignmentStatus"
+    "assignmentStatus": "sdmx:assignmentStatus",
+    "name": "rdfs:label"
   },
   "_comment": "missing AttributeRelationship and LocalRepresentation, that should be it"
 }

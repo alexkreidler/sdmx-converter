@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "name": {
       "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Australia, state and territories, 2016 to 2031",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ",
@@ -260,7 +260,7 @@
     "version": "1.0.0",
     "name": {
       "@value": "Projected population, Aboriginal and Torres Strait Islander Australians, Remotness Area, 2016 to 2031",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/ABS/DataStructure/ABORIGINAL_POP_PROJ_REMOTE",
@@ -518,7 +518,7 @@
     "version": "1.0",
     "name": {
       "@value": "AMECO",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/ECB/DataStructure/ECB_AME1",
@@ -1184,7 +1184,7 @@
     "version": "1.0",
     "name": {
       "@value": "Banknotes Statistics",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/ECB/DataStructure/ECB_BKN1",
@@ -2375,7 +2375,7 @@
     "version": "1.14",
     "name": {
       "@value": "Balance of Payments and International Investment Position",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/IMF/DataStructure/BOP",
@@ -3710,7 +3710,7 @@
     "version": "3.1",
     "name": {
       "@value": "Infraannual Labour",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/OECD/DataStructure/INFRA_ANNUAL_LABOUR",
@@ -4097,7 +4097,7 @@
     "version": "1.1",
     "name": {
       "@value": "International Merchandise Trade Statistics",
-      "@lang": "en"
+      "@language": "en"
     },
     "@type": "qb:DataStructureDefinition",
     "@id": "https://loqu.dev/UN/DataStructure/IMTS",
