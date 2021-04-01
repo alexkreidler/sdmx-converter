@@ -64,3 +64,11 @@ The issue is if many endpoint put restrictions on the data because it is too big
 `WB_WITS` did this with a response: `413 Client Error: Request Entity Too Large for url: http://wits.worldbank.org/API/V1/SDMX/V21/rest/data/TRADESTATS/`
 
 We need to survey the endpoints to determine if this will be an issue.
+
+## Queries from interfaces
+
+UNData:
+
+`https://data.un.org/ws/rest/data/UIS,DF_UNData_UIS,1.1/all/ALL/?detail=full&dimensionAtObservation=TIME_PERIOD`
+
+Other interfaces: `https://data.un.org/SDMXBrowser/download/excel/tabular/csv`

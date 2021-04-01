@@ -11,6 +11,9 @@ work_dir="/mnt/data/sdmx"
 mkdir -p $work_dir/errors
 mkdir -p $work_dir/timings
 
+mkdir -p $work_dir/errors/DataStructures
+mkdir -p $work_dir/timings/DataStructures
+
 for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
     _jq() {
         echo ${source} | base64 --decode | jq -r ${1}
@@ -52,7 +55,7 @@ for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
 
         name="${id}_${f}"
 
-        { time dl 2> $work_dir/errors/$name.log ; } 2> $work_dir/timings/$name.log
+        { time dl 2> $work_dir/errors/DataStructures/$name.log ; } 2> $work_dir/timings/DataStructures/$name.log
 
     done
     # .[0:10]
