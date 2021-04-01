@@ -26,6 +26,10 @@ for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
 
     base=$(_jq '.url')
 
+    if [ "$id" == "ABS" ]; then
+        continue
+    fi
+
     echo "$id Datasets"
     # | .[2:4]
     flows=$(cat $out_dir/Dataflows.json | jq '.Structure.Structures.Dataflows.Dataflow')
@@ -38,18 +42,18 @@ for source in $(echo "${sources}" | jq -r '.[] | @base64'); do
         mkdir -p $out_dir/Data
 
         id=$(_jqi '."-id"')
-        
+
         url="${base}data/$id"
         echo "Dataflow $id, Data from $url"
 
         dl() {
-            wget -O $out_dir/DataStructures/$f.xml "$url"
+            wget -O $out_dir/Data/$id.xml "$url"
         }
 
         name="${id}"
 
-        { time dl 2> $work_dir/errors/Data/$name.log ; } 2> $work_dir/timings/Data/$name.log
+        { time dl 2>$work_dir/errors/Data/$name.log; } 2>$work_dir/timings/Data/$name.log
 
     done
-    
+
 done

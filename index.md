@@ -72,3 +72,9 @@ UNData:
 `https://data.un.org/ws/rest/data/UIS,DF_UNData_UIS,1.1/all/ALL/?detail=full&dimensionAtObservation=TIME_PERIOD`
 
 Other interfaces: `https://data.un.org/SDMXBrowser/download/excel/tabular/csv`
+
+## Data transforms
+
+Get title of series
+
+`cat AME.xml | dasel -r xml -w json -s ".GenericData.DataSet.Series" | jq '[.[].Attributes.Value] | flatten | .[] | select(."-id"=="EXT_TITLE")."-value"'`
